@@ -9,6 +9,6 @@ Site estático (HTML + CSS) do escritório de José Viro Waschburger, OAB/SC 78.
 
 Para testar no computador: `python -m http.server` nesta pasta e abrir http://localhost:8000.
 
-Pendente: domínio próprio (quando houver, criar o arquivo `CNAME` e o `sitemap.xml`).
+Domínio: waschburger.adv.br (Registro.br, no CPF do José; DNS no Registro.br apontando para o GitHub Pages).
 
 Regras da OAB: textos revisados conforme o Código de Ética (arts. 39 a 47) e o Provimento 205/2021. Não incluir preços, promessa de resultado, casos concretos ou vínculo com outras atividades.
