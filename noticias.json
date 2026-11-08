@@ -1,5 +1,5 @@
 {
-  "atualizado": "2026-11-07T09:32+00:00",
+  "atualizado": "2026-11-08T09:32+00:00",
   "tributario": [
     {
       "titulo": "MP fixa alíquotas do Imposto Seletivo para cigarros, bebidas e veículos",
@@ -40,6 +40,18 @@
   ],
   "previdenciario": [
     {
+      "titulo": "PGR pede suspensão de ações contra proibição de bets",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/pgr-pede-suspensao-de-acoes-contra-proibicao-de-bets",
+      "fonte": "Agência Brasil",
+      "data": "2026-11-07T14:12:00-03:00"
+    },
+    {
+      "titulo": "Perícia Conectada chega a 900 agências do INSS em todas as regiões do país",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMGVQNU9VN045dHBnVHJTM0N4NzlIM21ObWRYbllRU2E5cTRmRElaYmlzSUcxZnhqcENCd0tlVXRFNHZTX3pyem94QlhySDJmYzJucDZtUDZNaDE5TEVDUTRXYlhSUkRmOWZOSzJqR2MxWl9xMTJoQjJBTHVlemFvWmE3YVpNcnRSRTRKTmVTZVk5WFVxZEZVQ3dEOVl2WkZtaXdtdm4xSXlCcmpjYnVxRjZmc1dwOWw0RTNCZks3OA?oc=5",
+      "fonte": "Gov.br",
+      "data": "2026-11-06T19:30:00+00:00"
+    },
+    {
       "titulo": "Mutirão de atendimentos do INSS oferece 8 mil vagas neste fim de semana (7 e 8)",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQN2JaOEZIbEQ1Q3ZQR0R3YlRFYjVYLURxZzByOWtKUWZwLUQ4QlM2NWpObjdOdzFrbWlWanZ2TnlROS0zQWdmU29sMFJ6STgxME1KWEZJS2ZCaEZqb3NUa2YtU3YzeGU2d0VoQWxaMnF6T251ay1lRWVuQ0ZYM3RrckZJbkxYWHBaUERwS1RMNEthOGM3RVY0VENfNEFjNUhqRWh6TUxNWnRsSU1jb25oWmxEUGJLaEgzU2ZYRTZZRUZGdEU?oc=5",
       "fonte": "Governo Federal",
@@ -54,20 +66,14 @@
     {
       "titulo": "Como funciona o benefício do INSS pra quem precisa parar de trabalhar em razão de doença ou acidente",
       "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOUnAyWF9OZ2J2aU56cDItMWU2TVd4Y2lsM3l2RW9jcXA3QUNSdmVqQ1haRnhWT090QjlHNFFiUFBhYUt4SHlKQUVjR2ZPVkg1OGFFR29ndHJjc2dqejF6QzFfTHRRRzhlRXYwbHhSXzczZnpsQldIa09sRHppWEU3c3BFZjZwX1FZdWRLQlNvWHJwd3FfZU51UG5pQ0tyOThUdkVxcHpkSEliWWE4bHBEZDNNc3FuWVJobktPOWhlZlFrT1VNY3lNUXRuUFh1ZG55N0RITXp1VEtVN1lHdGFVdU13?oc=5",
-      "fonte": "Governo Federal",
-      "data": "2026-11-03T19:20:14+00:00"
+      "fonte": "Gov.br",
+      "data": "2026-11-03T19:20:00+00:00"
     },
     {
-      "titulo": "Abertas as inscrições para o 2° Seminário IPE Prev de Educação Previdenciária",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQd3JQVl91UFYzbWpsWm1BM0d6REtDNzVmaF9vZEYxdm02SnExaTVTUTdlUExtWE9JZ0ZLdWxacktKRHdWdVJkWC05S19Za3liMXM5QWdfWTF0REQ5RFJaSGNwZ05kbTdCLUZwVGFWbGc5RTcyQS1Tb1F6N0x4VTNpaTcwTzYyOUtOeHNQYzdjNDhTcjdzYnM2T0ZYZXlOMC16eEpIOHVYcm0?oc=5",
-      "fonte": "Portal do Estado do Rio Grande do Sul",
-      "data": "2026-11-03T15:21:40+00:00"
-    },
-    {
-      "titulo": "Voto no segundo turno também vale como Prova de Vida no INSS",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUTJkNmNkaDhBSlNXdmlLMnJrdl8zNEw3bFgwZ3lmdkh0NjFIM0JuTEl1RVlmWnZ3SjQ5MWlkd2pzUUxLVUJVbkl5eHBPNlIxcWFFa2dJTDVYOUlaenAwc05OekVxdUNydG5YWkhhR2JQRXdUb1dpdkVkVHNPVVJ5NVRvcDBsODJpUVFZcURPV0kzbm9rblNULVhpSWpnUURVbkpPYjFwV3E4ZmJS?oc=5",
+      "titulo": "Dona de casa pode contribuir para o INSS e ter direito a benefícios",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcmNrMkVieUhEMDRCWk9OV2o1TEFTQWoxQVVRbGptdmtTOFhXNG1PUjdSc0ozMUhzWWtfb0ZhZmw3amUwb0JVNkphRVhjcWM2dS1YYzhBRnUwWXNHUWZMc1ZFY1B0TEZ5ZTRfMVZEZlpMcjhmMU5nYUd4SHMwMWQzLUREU21DRWdRMjlhaURLeXREUkt4VTdsRjM1dDVmbEpXN2lWSU91MGhhSEZUTVplMU9hZjZOUQ?oc=5",
       "fonte": "INSS",
-      "data": "2026-10-19T07:00:00+00:00"
+      "data": "2026-10-29T07:00:00+00:00"
     }
   ]
 }
