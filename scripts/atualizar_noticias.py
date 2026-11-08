@@ -35,7 +35,12 @@ AREAS = {
 }
 
 # Páginas de serviço que o Google Notícias às vezes devolve como se fossem notícia.
-DESCARTAR = re.compile(r"^(solicitar|consultar|receber|bem-vindo|páginas|meu inss|sistema nacional)\b", re.I)
+DESCARTAR = re.compile(r"^(solicitar|consultar|receber|bem-vindo|páginas|meu inss|sistema nacional"
+                       # Programas de rádio/TV do Senado: o título é o nome do programa, não a notícia.
+                       r"|onze minutos|edição da (manhã|tarde|noite)|senado notícias|conexão senado"
+                       r"|repórter senado|rádio senado|a voz do brasil|senado em pauta|home page)\b", re.I)
+# Temas que batem nas palavras-chave mas não interessam ao cliente (ex.: "aposentadoria compulsória" de juiz punido).
+FORA_DO_TEMA = re.compile(r"compulsória|desembargador|magistrad|condena|operação |login", re.I)
 # Fontes estaduais e municipais ficam de fora: o foco é a esfera federal.
 FONTES_FORA = re.compile(r"prefeitura|assembleia|governo d[eoa] |câmara municipal|agenciasp|sefaz|\.sp\.gov|\.pr\.gov", re.I)
 
@@ -135,7 +140,8 @@ def coletar(area):
         except Exception as e:
             print(f"[{area}] {url} falhou: {e}")
     filtro = re.compile(cfg["palavras"], re.I)
-    itens = [i for i in itens if filtro.search(i["titulo"]) and not FONTES_FORA.search(i["fonte"])]
+    itens = [i for i in itens if filtro.search(i["titulo"]) and not FORA_DO_TEMA.search(i["titulo"])
+             and not FONTES_FORA.search(i["fonte"])]
 
     limite = datetime.now(timezone.utc) - timedelta(days=DIAS)
     vistos, saida = set(), []
