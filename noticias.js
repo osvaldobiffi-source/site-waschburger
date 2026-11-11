@@ -2,14 +2,18 @@
 (function () {
   var POR_AREA = 3;
 
+  var relativo = window.Intl && Intl.RelativeTimeFormat
+    ? new Intl.RelativeTimeFormat('pt-BR', { numeric: 'auto' })
+    : null;
+
   function quando(iso) {
     var d = new Date(iso);
+    if (isNaN(d.getTime())) return '';
     var horas = Math.floor((Date.now() - d.getTime()) / 36e5);
     if (horas < 1) return 'agora há pouco';
-    if (horas < 24) return 'há ' + horas + (horas === 1 ? ' hora' : ' horas');
     var dias = Math.floor(horas / 24);
-    if (dias === 1) return 'ontem';
-    if (dias < 7) return 'há ' + dias + ' dias';
+    if (relativo && horas < 24) return relativo.format(-horas, 'hour');
+    if (relativo && dias < 7) return relativo.format(-dias, 'day');
     return d.toLocaleDateString('pt-BR', { day: 'numeric', month: 'short' });
   }
 
@@ -32,7 +36,8 @@
       var titulo = document.createElement('strong');
       titulo.textContent = n.titulo;
       var meta = document.createElement('span');
-      meta.textContent = n.fonte + ' · ' + quando(n.data);
+      var data = quando(n.data);
+      meta.textContent = data ? n.fonte + ' · ' + data : n.fonte;
       a.appendChild(titulo);
       a.appendChild(meta);
       li.appendChild(a);
@@ -41,7 +46,10 @@
   }
 
   fetch('noticias.json', { cache: 'no-cache' })
-    .then(function (r) { return r.json(); })
+    .then(function (r) {
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.json();
+    })
     .then(function (d) {
       preencher('noticias-tributario', d.tributario);
       preencher('noticias-previdenciario', d.previdenciario);
