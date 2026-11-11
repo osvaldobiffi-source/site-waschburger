@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; upgrade-insecure-requests">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; font-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; upgrade-insecure-requests">
 <meta name="referrer" content="strict-origin-when-cross-origin">
-<title>Advocacia Tributária e Previdenciária em Guarujá do Sul (SC) | Waschburger Advocacia</title>
-<meta name="description" content="José Viro Waschburger, OAB/SC 78.480. Advocacia tributária para empresas e previdenciária (INSS, aposentadoria, BPC/LOAS, auxílio-acidente) em Guarujá do Sul (SC) e região. Atendimento presencial ou por videoconferência.">
+<title>Advogado Tributário e Previdenciário em Guarujá do Sul (SC)</title>
+<meta name="description" content="José Viro Waschburger, OAB/SC 78.480. Advocacia tributária e previdenciária (INSS, aposentadoria, BPC/LOAS) em Guarujá do Sul e região. Presencial ou online.">
 <meta name="theme-color" content="#0F1D3F">
 <link rel="canonical" href="https://waschburger.adv.br/">
 <meta property="og:url" content="https://waschburger.adv.br/">
@@ -17,38 +17,248 @@
 <meta property="og:image" content="https://waschburger.adv.br/img/jose-escritorio.jpg">
 <link rel="icon" type="image/png" href="img/favicon.png">
 <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=Playfair+Display:ital,wght@0,600;1,500;1,600;1,700&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="preload" href="fontes/playfair.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fontes/source-sans-3.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="estilo.css">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "LegalService",
-  "name": "Waschburger Advocacia",
-  "description": "Advocacia tributária para empresas e previdenciária (INSS, aposentadorias, BPC/LOAS, auxílios e pensões) em Guarujá do Sul (SC) e região. Também atua em Direito Bancário (contratos bancários e agrícolas, dívidas rurais e FINAME) e Direito Penal. Presencial ou por videoconferência.",
-  "knowsAbout": ["Direito Tributário", "Direito Previdenciário", "Direito Bancário", "Direito Penal"],
-  "image": "https://waschburger.adv.br/img/jose-escritorio.jpg",
-  "url": "https://waschburger.adv.br/",
-  "telephone": "+55 49 99172-8535",
-  "email": "josevirowaschburger@gmail.com",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Avenida João Pessoa, 1616, Centro",
-    "addressLocality": "Guarujá do Sul",
-    "addressRegion": "SC",
-    "postalCode": "89940-000",
-    "addressCountry": "BR"
-  },
-  "hasMap": "https://maps.app.goo.gl/teGtz5b2euoFfVNC8",
-  "geo": {"@type": "GeoCoordinates", "latitude": -26.3898731, "longitude": -53.5253025},
-  "areaServed": ["Guarujá do Sul", "São José do Cedro", "Dionísio Cerqueira", "Princesa", "Palma Sola", "Anchieta", "Guaraciaba", "São Miguel do Oeste", "Barracão", "Bom Jesus do Sul"],
-  "openingHoursSpecification": [
-    {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"], "opens": "08:00", "closes": "17:00"},
-    {"@type": "OpeningHoursSpecification", "dayOfWeek": "Friday", "opens": "08:00", "closes": "15:00"}
-  ],
-  "founder": {"@type": "Person", "name": "José Viro Waschburger", "jobTitle": "Advogado, OAB/SC 78.480"},
-  "sameAs": ["https://www.instagram.com/josevirowaschburger/", "https://www.linkedin.com/in/josewaschburger/"]
+  "@graph": [
+    {
+      "@type": "LegalService",
+      "name": "Waschburger Advocacia",
+      "description": "Advocacia tributária para empresas e previdenciária (INSS, aposentadorias, BPC/LOAS, auxílios e pensões) em Guarujá do Sul (SC) e região. Também atua em Direito Bancário (contratos bancários e agrícolas, dívidas rurais e FINAME) e Direito Penal. Presencial ou por videoconferência.",
+      "knowsAbout": [
+        "Direito Tributário",
+        "Direito Previdenciário",
+        "Direito Bancário",
+        "Direito Penal"
+      ],
+      "image": "https://waschburger.adv.br/img/jose-escritorio.jpg",
+      "url": "https://waschburger.adv.br/",
+      "telephone": "+55 49 99172-8535",
+      "email": "josevirowaschburger@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Avenida João Pessoa, 1616, Centro",
+        "addressLocality": "Guarujá do Sul",
+        "addressRegion": "SC",
+        "postalCode": "89940-000",
+        "addressCountry": "BR"
+      },
+      "hasMap": "https://maps.app.goo.gl/teGtz5b2euoFfVNC8",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -26.3898731,
+        "longitude": -53.5253025
+      },
+      "areaServed": [
+        "Guarujá do Sul",
+        "São José do Cedro",
+        "Dionísio Cerqueira",
+        "Princesa",
+        "Palma Sola",
+        "Anchieta",
+        "Guaraciaba",
+        "São Miguel do Oeste",
+        "Barracão",
+        "Bom Jesus do Sul"
+      ],
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday"
+          ],
+          "opens": "08:00",
+          "closes": "17:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Friday",
+          "opens": "08:00",
+          "closes": "15:00"
+        }
+      ],
+      "sameAs": [
+        "https://www.instagram.com/josevirowaschburger/",
+        "https://www.linkedin.com/in/josewaschburger/"
+      ],
+      "@id": "https://waschburger.adv.br/#escritorio",
+      "logo": "https://waschburger.adv.br/img/logo-azul.png",
+      "founder": {
+        "@id": "https://waschburger.adv.br/#jose"
+      },
+      "priceRange": "Honorários sob proposta",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Áreas de atuação",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Direito Tributário",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Recuperação tributária"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Revisão fiscal"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Regularização de impostos atrasados"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Orientação sobre a reforma tributária"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "OfferCatalog",
+            "name": "Direito Previdenciário",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Benefício do INSS negado"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Auxílio-acidente"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Aposentadoria"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "BPC/LOAS"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Pensão por morte"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Aposentadoria de servidores públicos"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "OfferCatalog",
+            "name": "Direito Bancário",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Revisão de contratos bancários"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Contratos agrícolas e dívidas rurais"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "FINAME"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "OfferCatalog",
+            "name": "Direito Penal",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Defesa em inquéritos e processos criminais"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://waschburger.adv.br/#jose",
+      "name": "José Viro Waschburger",
+      "jobTitle": "Advogado",
+      "description": "Advogado inscrito na OAB/SC sob o nº 78.480.",
+      "image": "https://waschburger.adv.br/img/jose-escritorio.jpg",
+      "url": "https://waschburger.adv.br/",
+      "worksFor": {
+        "@id": "https://waschburger.adv.br/#escritorio"
+      },
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "Universidade do Oeste de Santa Catarina (Unoesc)"
+      },
+      "knowsAbout": [
+        "Direito Tributário",
+        "Direito Previdenciário",
+        "Direito Bancário",
+        "Direito Penal"
+      ],
+      "sameAs": [
+        "https://www.instagram.com/josevirowaschburger/",
+        "https://www.linkedin.com/in/josewaschburger/"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://waschburger.adv.br/#site",
+      "url": "https://waschburger.adv.br/",
+      "name": "Waschburger Advocacia",
+      "inLanguage": "pt-BR",
+      "publisher": {
+        "@id": "https://waschburger.adv.br/#escritorio"
+      }
+    }
+  ]
 }
 </script>
 </head>
@@ -59,7 +269,7 @@
 <header class="topo">
 <div class="caixa topo-linha">
 <a href="#" class="marca">
-<img src="img/logo-branco.png" alt="" width="56" height="56">
+<img src="img/logo-branco-112.webp" alt="" width="56" height="56">
 <span translate="no">Waschburger Advocacia</span>
 </a>
 <nav aria-label="Menu principal" class="menu">
@@ -77,8 +287,8 @@
 <div class="caixa hero-linha">
 <div class="hero-texto">
 <p class="lema">Confiança, ética e compromisso.</p>
-<h1>Advocacia tributária e previdenciária com atendimento claro e transparente</h1>
-<p class="hero-sub">José Viro Waschburger orienta pessoas e empresas de Guarujá do Sul (SC) e região, com atendimento presencial ou por videoconferência.</p>
+<h1>Advocacia tributária e previdenciária em Guarujá do Sul (SC)</h1>
+<p class="hero-sub">José Viro Waschburger orienta pessoas e empresas da região com atendimento claro e transparente, presencial ou por videoconferência.</p>
 <div class="botoes">
 <a href="https://calendar.app.google/XQkxsDjP38xJTfrn6" target="_blank" rel="noopener" class="botao botao-branco">Agendar uma conversa</a>
 <a href="#areas" class="botao botao-contorno-claro">Ver áreas de atuação</a>
@@ -87,7 +297,7 @@
 </div>
 <div class="hero-foto">
 <svg aria-hidden="true" viewBox="0 0 440 440" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"><path d="M352 70 A196 196 0 1 0 410 285"/><path d="M420 240 A196 196 0 0 1 300 400"/></svg>
-<img src="img/jose-escritorio.jpg" alt="José Viro Waschburger em seu escritório" width="400" height="520" fetchpriority="high">
+<img src="img/jose-escritorio-400.webp" srcset="img/jose-escritorio-280.webp 280w, img/jose-escritorio-400.webp 400w, img/jose-escritorio-560.webp 560w, img/jose-escritorio-800.webp 800w" sizes="(max-width: 760px) 280px, 400px" alt="José Viro Waschburger em seu escritório" width="400" height="520" fetchpriority="high">
 </div>
 </div>
 </section>
@@ -153,9 +363,9 @@
 
 <section id="sobre" class="faixa-clara">
 <div class="caixa sobre">
-<img src="img/jose-mesa.jpg" alt="José Viro Waschburger trabalhando à mesa do escritório" class="foto-sobre" width="440" height="540" loading="lazy">
+<img src="img/jose-mesa-440.webp" srcset="img/jose-mesa-440.webp 440w, img/jose-mesa-640.webp 640w, img/jose-mesa-880.webp 880w" sizes="(max-width: 760px) 100vw, 440px" alt="José Viro Waschburger trabalhando à mesa do escritório" class="foto-sobre" width="440" height="540" loading="lazy">
 <div class="sobre-texto">
-<img src="img/logo-azul.png" alt="" width="76" height="76" loading="lazy">
+<img src="img/logo-azul-152.webp" alt="" width="76" height="76" loading="lazy">
 <h2>Sobre o advogado</h2>
 <blockquote>“Ao longo da minha trajetória, aprendi que ouvir, orientar e ajudar as pessoas exige dedicação e compromisso.”</blockquote>
 <p>José Viro Waschburger, advogado inscrito na OAB/SC sob o nº 78.480, atua nas áreas Tributária e Previdenciária, orientando pessoas e empresas que buscam informação e segurança jurídica.</p>
@@ -224,7 +434,7 @@
 </ul>
 <a href="https://maps.app.goo.gl/teGtz5b2euoFfVNC8" class="botao botao-contorno">Como chegar pelo Google Maps</a>
 </div>
-<img src="img/jose-atendimento.jpg" alt="José Viro Waschburger sentado à mesa de atendimento" class="foto-contato" width="460" height="600" loading="lazy">
+<img src="img/jose-atendimento-460.webp" srcset="img/jose-atendimento-460.webp 460w, img/jose-atendimento-896.webp 896w" sizes="460px" alt="José Viro Waschburger sentado à mesa de atendimento" class="foto-contato" width="460" height="600" loading="lazy">
 </div>
 </section>
 </main>
@@ -232,7 +442,7 @@
 <footer class="rodape">
 <div class="caixa rodape-linha">
 <div class="rodape-marca">
-<img src="img/logo-branco.png" alt="" width="52" height="52" loading="lazy">
+<img src="img/logo-branco-112.webp" alt="" width="52" height="52" loading="lazy">
 <div><strong translate="no">Waschburger Advocacia</strong><span>José Viro Waschburger, OAB/SC&nbsp;78.480</span><span>CNPJ 69.882.588/0001-50</span></div>
 </div>
 <p>Conteúdo de caráter informativo, conforme o Código de Ética e o Provimento 205/2021 da OAB. Não constitui promessa de resultado.</p>
