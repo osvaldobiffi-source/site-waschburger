@@ -1,11 +1,17 @@
 {
-  "atualizado": "2026-11-14T09:31+00:00",
+  "atualizado": "2026-11-15T09:33+00:00",
   "tributario": [
     {
       "titulo": "Revista da Semana: Votação do projeto de ajuste fiscal deve ser concluída na próxima terça",
       "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQWklvVDlCZ0k1a0d6ak9GUENvOU1uMVhRVkQzclZlNXJnMDA3S09aM0pPVmI5empVR190WWdoVnEzZVo1cUN6LWRTdnY4eDE1NVVIZFl1ZnFVSkQwTktRX21fT1dYbEVIODIxMWRCbnd4dnhVc1NHdU80Wjg1bUlRZUZfYWRxbUJvV0hMU3pkbXQ4MlBDNFhaTlBsT2VKT2JKWkg5R3l1REliakduMjJOcGt5RkJpNnZQZnk2RmsyREk5d01OSjA2SEhZNkw3eU5jTkVJWkMzWlduNXVIWktIODctRU9KbHlUYkE?oc=5",
       "fonte": "Agência Senado",
       "data": "2026-11-13T21:09:03+00:00"
+    },
+    {
+      "titulo": "CGNFS-e informa: Ato Conjunto RFB/CGIBS nº 7/2026 atualiza o cronograma de obrigatoriedade de emissão da NFS-e para IBS e CBS.",
+      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQc0x5WGRUQXRWVElNU2tXUjhIS0VET2Z0SHVha3Ixa0RIWkZlQXRudXZJS0ZwcWZBcFNyemtSWmFRQ0ptenFYekl6MVg5akZONGh0NEdteWRrRmlPZ0FjWDRiLUI0aFJTVy1Sc0pwSlVJdC1weFFCZ2dqa1NlSzdkRFZWbENxRzB2Mm0tVkh2R3lROWJpcmhuNy1EMHNxSjMydUdNc1RkNTc0bGhWMmhMeW9zY3FMYjFRS3M4ZHZocko2bkR6Zi1sQlJZZExmckhqRjJmQ2tsemdydFNSZ00weGNoRnJyZWZNMEp0Z3V5a1VEMmhVZXc?oc=5",
+      "fonte": "Gov.br",
+      "data": "2026-11-13T19:29:27+00:00"
     },
     {
       "titulo": "CAE: ministro da Fazenda debate alíquota da CBS na terça-feira",
@@ -30,25 +36,25 @@
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZ0ZrYTd4RWVvSkV2NzZMMWNjQ3R5eVNWa0ZmOThEVmNVeHlYa1NhWjlRcmtHUDB3QVRJUUJYSnZ1cU1hbTlnZ3pMZHJFMEtYdmJUYy1KMmZtbnRpeGdZdDJMZGQtRWJmR2FtMENDNXNZVkNlZ09iRXFJdGpJQ3FSWEpSTGo5RkJseWZOenhHRGFUbVdfV3F1WUFRcTRreFBVOFNMZk9idUdRRlItZzRISjRNRzBkbER1S09SSnNRWHBuZw?oc=5",
       "fonte": "Agência Senado",
       "data": "2026-11-13T13:29:19+00:00"
-    },
-    {
-      "titulo": "Projetos em Destaque: prorrogação do Auxílio Gás e regras para imposto seletivo",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNVTV0cDkwTzFfQ3hSVncwR25td09RaWd2eDYyT05QQU1nR0lsZGstTTFSR3JDdnljRGlGQ013THBnU0NrS0xhT2duWGR1SVdNWEhPclBmZ0F6eEl5Yk0yeWlmbjlKcUJEamJINENoT1pUNFdqalEwSTJxNWNnNUdvUVZqSGdHQzhNWHA1dlBHbDFlRldPVEV2c3RlWTkwY1UteTJpN0lXRzB5VDJ3VEdxd0RHUlhHVFpRVXFqZmNOUUJjSWwxQXJ5UXQwWTJtaEkyenVSNXRRdnZJc2RF?oc=5",
-      "fonte": "Agência Senado",
-      "data": "2026-11-13T12:10:00+00:00"
     }
   ],
   "previdenciario": [
     {
-      "titulo": "PreviLúcia | Guia da Previdência de São Leopoldo",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBpZHRBc09xWTIwaFJSanptbFlqLWRhTVJQMnVyU3lEZW1RMkNXV3pkTEhndjZmZDFxWG5LbzhHbFZGUHYyYWMzQXY0ejR2TmY1clgw?oc=5",
-      "fonte": "Município de São Leopoldo",
-      "data": "2026-11-12T21:14:41+00:00"
+      "titulo": "Desligamento voluntário do Bolsa Família: entenda como funciona a proteção de renda para quem solicita o BPC",
+      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQWXBRSTM2QWNoaHVJRE1VNzhOanNVZm45MlJmU0ptYTRWS1BIT2Yya3VhZVYybmdTRTdWYlFtby1DQ0FOeFBLUEs0dS1HRzVGd1ZJMjhXc1ZxMXlYcjRlMmtyc1dDcFJZX0dvMWR2ei0xelB6R2w2aGstbW5OVlBUaTBqVF9jZktJX3JVNEg5ejhzVVpDdjVmM2xNU3hWVUYtMS1QWVZjeDI5Ni10REhxcFpzNElpdHNfaV84aEliYkRrU1J4Y1VLcTJUMDl2clltQXVHbVNsckhwR1MxVFEtb1FveE03MTRCbW9veW5Kc0ZjODB5Ull3ZXE0Ny1TdkU1?oc=5",
+      "fonte": "Rede do Esporte",
+      "data": "2026-11-13T21:15:25+00:00"
+    },
+    {
+      "titulo": "INSS orienta trabalhadores domésticos em Campo Grande (MS)",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQ0NGMG9LZUVHTG5ZTEJYdWktbEFCeE1WU1hRcEt6MEptOHlJWF9WSVFqUzBrZXJSbk9xTEh2ZWpBZnVoM2tuRzg1X25CNm5faFB1TGtlTVV0NW9xQlBkZGdkSGV0VE1GN0J4bXJxbU9ST1I4SHpkeDFrZ3F1ZlliM3ppUlJaZDhOcEpBTjRRbTVkNURFOXJIZm16WWVLcFh2NTVEYUphWQ?oc=5",
+      "fonte": "INSS",
+      "data": "2026-11-13T14:39:00+00:00"
     },
     {
       "titulo": "Mutirão de atendimentos do INSS oferece quase 8 mil vagas neste fim de semana (14 e 15)",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPT01MTU8zMGNUQmxSVjI0N1FINjhOd1ppd0l0RUZrVDdfMXQ2MXA2eEVybWRGUzM4bUJQZEJpazAyMnIxaWhDY2VmcmxYQk1qdmkxbEtlQWRqaU1ubnlFSlM5MFAtSU5SVW5pQTNlaUFsNFBHRjRTcjVaSmJUQ0xldFVlTzlsUk5WeEFrQzUyeXZ4UzJpaVNIUHZ0S0ZKOWs4YW5JT0h5UlVHT0RPSnQtZ0xNMXVjOHEzMzVHQWE4ZnhPbUd6YjYzYnRsWkZOUQ?oc=5",
-      "fonte": "Governo Federal",
+      "fonte": "Gov.br",
       "data": "2026-11-12T20:26:00+00:00"
     },
     {
@@ -58,22 +64,16 @@
       "data": "2026-11-12T17:41:35+00:00"
     },
     {
+      "titulo": "INSS leva orientações previdenciárias à Aldeia Jaguapiru, em Dourados (MS)",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNOVdKdGVYdGJLRW1JbkVBaW0xZFp2aHp6eXF1a21seWgxUWR4VHZCdHdSeHhsWEEzVWE1UXpfaFFTT1ZCdmVPc2EybEV4X3RTSnNFYS1CWHJyRFNRTzdKVGgwai04Wk9FcDZZSFlZUS00TXQwT2hWQm01RDVmYWdCbTJCMzRvSHJLd2xVUDBYbjdOTklWSDdxSEt2TTgzRkZVRHoybXB6eWdRTWMzd2tyLTA1Wk1zRVBMVWJv?oc=5",
+      "fonte": "Gov.br",
+      "data": "2026-11-12T17:22:00+00:00"
+    },
+    {
       "titulo": "Congresso aprova recursos para Previdência, Bolsa Família e investimentos",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxON1kxOXdGb2NRNWhheDg5ZnNTbzgwVlEtd0FTUmlLNjZKYVpISms0UkVXWjQ3ZkpPZWlwcmdTMm1zb19rRUYxZEtWeV9hM1Z0YkJpbExVSFV6bVNvWVpTaVViaHpQMGRPUF93YkEwUGtEaVlqUEtaOFJ3cjc1dWE2WVh6d0tfZmlRdXEwVjhtZG8zd1lmaXdTcTA2b3M2TzBabmFDTjNxQTduTnhzdDd1czQ4Z0xyRHoyRTRqbVo1MW1sZDdLQXc?oc=5",
       "fonte": "Agência Senado",
       "data": "2026-11-12T16:44:00+00:00"
-    },
-    {
-      "titulo": "PF apura irregularidades na gestão de recursos previdenciários",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQOFVSQ3JLdWE4Wk1TaExVQVhZSnNJaHNYN0w3VE1QZnJKS2d2eDEzZVlJc3hsb3JHOWswNVB3Ml9zLU1rc2o5clJXc3NCQncxWmt0Z0pkWDRZd3FQVHA1aVpEekJZRHpvN2lxSEIyRWMwRUVONHhkbEpES0kxX2xYMGk2U3dvRTZyRlJpdGY2VkViU29fZUhMWWx3V3NpaVRyMXZzYXpYNlRieDE5cUFhdkpxVktQa092cGJvX0J0U2Y3YkZIVno4bFBLWm02d1pYN085UWFvYXNlUklYaFVfV2FyS1k?oc=5",
-      "fonte": "Polícia Federal",
-      "data": "2026-11-12T13:47:00+00:00"
-    },
-    {
-      "titulo": "Rádio Decidendi debate precedente sobre revisão de benefícios por incapacidade concedidos pela Justiça",
-      "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPTmNlUmVIcHQ0QV9JUHNkcjdnN2d0SDVXWVI0WnVya2JRQkc5N2s2MGM3RTFyb1RDR3dJUFdnNzVXXzA0dEhQSS1kbUdZbUNTZHRhZ2pEWm9vaVloalNXSjZiQW5BZWNsZGFZRWh3RVo4ems4cTV0dlN5R0dsMkNid0hqc0J2SkFFVjBJdXdyT250VGhsZHc3QVoyaUk4N1lVb1l0c3F3azRIQTEwMnN1eEdTUWtPNnhDRUhmNlFQOG9UcG1Qak1hcWw1NUpDeEstNnRzWTg3aV9ZSFNlWV84dW1TcTQ2N1ZTd2dPeHEzSXNMekNuR2w4Tlo2dXR3RmQ0ZEdwZ0xiRlJkWEs3X3lsUWFrQTlXdw?oc=5",
-      "fonte": "STJ",
-      "data": "2026-11-12T11:10:00+00:00"
     }
   ]
 }
