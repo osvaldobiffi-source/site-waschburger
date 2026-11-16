@@ -1,6 +1,12 @@
 {
-  "atualizado": "2026-11-15T09:33+00:00",
+  "atualizado": "2026-11-16T10:29+00:00",
   "tributario": [
+    {
+      "titulo": "Programa Nota Fiscal Gaúcha se aproxima de 4,5 milhões de cidadãos cadastrados",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWVp0Zy0zVHhUMFNfa29ZOERPV1NZVUxlVWY0NnBoeFk3TzgxUXVNYmlrOUxtc3VheVdCbTNYOVlLQ05lcTA1Q21TOUlUSVhIQkRuUWR4TGtYbmxFZGRMaC1Pd3pxeXZPYmhrT2hFZG1EN3ZtWFlubWdvYWZtMnlnaVU1SkFQY3F3SDdOLXYzdTFYZXhYMG9FRU9uZGtOQ1BNU1lmUzl3?oc=5",
+      "fonte": "Portal do Estado do Rio Grande do Sul",
+      "data": "2026-11-15T17:00:00+00:00"
+    },
     {
       "titulo": "Revista da Semana: Votação do projeto de ajuste fiscal deve ser concluída na próxima terça",
       "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQWklvVDlCZ0k1a0d6ak9GUENvOU1uMVhRVkQzclZlNXJnMDA3S09aM0pPVmI5empVR190WWdoVnEzZVo1cUN6LWRTdnY4eDE1NVVIZFl1ZnFVSkQwTktRX21fT1dYbEVIODIxMWRCbnd4dnhVc1NHdU80Wjg1bUlRZUZfYWRxbUJvV0hMU3pkbXQ4MlBDNFhaTlBsT2VKT2JKWkg5R3l1REliakduMjJOcGt5RkJpNnZQZnk2RmsyREk5d01OSjA2SEhZNkw3eU5jTkVJWkMzWlduNXVIWktIODctRU9KbHlUYkE?oc=5",
@@ -20,22 +26,16 @@
       "data": "2026-11-13T19:02:25+00:00"
     },
     {
+      "titulo": "Ajuste fiscal: adiamento de votação dá mais tempo para reflexão, diz Davi",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPQkhRU3FaOWZPQjlWS3VKcThKaGFUOC1sMkZ1ZzEtVHpxclBMT2pWdFhBeWl5UGJ2Wi1lc3JZdFJ0Tm9taVY3aGw3SjZnaW9NdGtSOVRKWGdoUFloTk12eGtxeXp0c0ZFXzNXaEVqYXUwd24zaXRvMmdVQkswa09uekZfa21MYnlhX0JscmZKU1c0X0pscWpkU0s3NGlod25ES3lYcFFhN0ZPcHFHeVcxTDJIMFplQktJaTRNcExmRDJ2cV9wcHp3?oc=5",
+      "fonte": "Agência Senado",
+      "data": "2026-11-13T14:57:48+00:00"
+    },
+    {
       "titulo": "PGDAS-D é atualizado para atender à Reforma Tributária a partir de novembro de 2026",
       "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPdFR1c3dfMExzN2dnNG9wLXVOSzhLM1p1cms4UFpvcUVsRVhlYVA1MlhlRTJmTFFwU2ZUU1Q2UTNremFfbWJsem9kTVlseXIydUFOdXVHazJvamVOd2JLcGU2NkJZZjRzanNfbklzeGY1ZW93YXljcEY3clJrTlJoaVU2YWNOd3ppeXZqQnRza1RfXzN2ejFJajlKWDV1QU9fWmprbmJUN2Y1cWo4VWFHSUJ4SDFXMmlFXzVmMndhMVVpWHlwd3JxdU4yOEFZekNtcnpDYVdSWk5zeWxfVkRvWlE5VjlXbHpTTkww?oc=5",
       "fonte": "Receita Federal",
       "data": "2026-11-13T14:44:01+00:00"
-    },
-    {
-      "titulo": "Benefício tributário a entidades filantrópicas é aprovado pela CAS",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQenpOSWJPemJJTExFN2Q4MHZKNnNVTTlibk92R1VsTmw2enlVYzdwaEJIMkJSTzJhLWp2cldWdXItUlR1TFpLbU9uSW9MalJxWW5iYVJvMk96OWNoZzZQa1I4Y2FFLTlFV3dMM000V3FSLV81YkQ2dVJ5TnRmcXM0VENEQ240VUh4TngtYnNfZEdOLVg0UlI2bzNZZDhjcFo0TVFlY3ZRYjRWZ2VJa0FpeXpOV19hWEpXMFE?oc=5",
-      "fonte": "Agência Senado",
-      "data": "2026-11-13T14:28:47+00:00"
-    },
-    {
-      "titulo": "Reforma Tributária: tire suas dúvidas e não caia em fake news",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZ0ZrYTd4RWVvSkV2NzZMMWNjQ3R5eVNWa0ZmOThEVmNVeHlYa1NhWjlRcmtHUDB3QVRJUUJYSnZ1cU1hbTlnZ3pMZHJFMEtYdmJUYy1KMmZtbnRpeGdZdDJMZGQtRWJmR2FtMENDNXNZVkNlZ09iRXFJdGpJQ3FSWEpSTGo5RkJseWZOenhHRGFUbVdfV3F1WUFRcTRreFBVOFNMZk9idUdRRlItZzRISjRNRzBkbER1S09SSnNRWHBuZw?oc=5",
-      "fonte": "Agência Senado",
-      "data": "2026-11-13T13:29:19+00:00"
     }
   ],
   "previdenciario": [
@@ -52,9 +52,21 @@
       "data": "2026-11-13T14:39:00+00:00"
     },
     {
+      "titulo": "Benefício tributário a entidades filantrópicas é aprovado pela CAS",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQenpOSWJPemJJTExFN2Q4MHZKNnNVTTlibk92R1VsTmw2enlVYzdwaEJIMkJSTzJhLWp2cldWdXItUlR1TFpLbU9uSW9MalJxWW5iYVJvMk96OWNoZzZQa1I4Y2FFLTlFV3dMM000V3FSLV81YkQ2dVJ5TnRmcXM0VENEQ240VUh4TngtYnNfZEdOLVg0UlI2bzNZZDhjcFo0TVFlY3ZRYjRWZ2VJa0FpeXpOV19hWEpXMFE?oc=5",
+      "fonte": "Agência Senado",
+      "data": "2026-11-13T14:28:47+00:00"
+    },
+    {
+      "titulo": "PreviLúcia | Guia da Previdência de São Leopoldo",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBpZHRBc09xWTIwaFJSanptbFlqLWRhTVJQMnVyU3lEZW1RMkNXV3pkTEhndjZmZDFxWG5LbzhHbFZGUHYyYWMzQXY0ejR2TmY1clgw?oc=5",
+      "fonte": "Município de São Leopoldo",
+      "data": "2026-11-12T21:14:41+00:00"
+    },
+    {
       "titulo": "Mutirão de atendimentos do INSS oferece quase 8 mil vagas neste fim de semana (14 e 15)",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPT01MTU8zMGNUQmxSVjI0N1FINjhOd1ppd0l0RUZrVDdfMXQ2MXA2eEVybWRGUzM4bUJQZEJpazAyMnIxaWhDY2VmcmxYQk1qdmkxbEtlQWRqaU1ubnlFSlM5MFAtSU5SVW5pQTNlaUFsNFBHRjRTcjVaSmJUQ0xldFVlTzlsUk5WeEFrQzUyeXZ4UzJpaVNIUHZ0S0ZKOWs4YW5JT0h5UlVHT0RPSnQtZ0xNMXVjOHEzMzVHQWE4ZnhPbUd6YjYzYnRsWkZOUQ?oc=5",
-      "fonte": "Gov.br",
+      "fonte": "Governo Federal",
       "data": "2026-11-12T20:26:00+00:00"
     },
     {
@@ -62,18 +74,6 @@
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNNE40TUVFNXoyS3ZvM21uNUZvRzJwTFQ5amdvWDBUeGJOVm5BZTdsbmoybG9TR291S2hscFBWRlZmVDg2dTdHQWdPaHk1T3NKckJMWnhTa2Z6SGRQbTEzQ19pcDVmaWdCRGlONnVOeVVKZEplcndteXh1NGJ4UWNmUVdKQ2MyOWluRkYydmpWYkRPUUxxU2VaSmE4NE1oU2FJQzFnRXRmVnJYanhsOS1XTlJTeElJQUpYVmdSRmhaZGNOODNfdWJjYThjYU41Zw?oc=5",
       "fonte": "Agência Senado",
       "data": "2026-11-12T17:41:35+00:00"
-    },
-    {
-      "titulo": "INSS leva orientações previdenciárias à Aldeia Jaguapiru, em Dourados (MS)",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNOVdKdGVYdGJLRW1JbkVBaW0xZFp2aHp6eXF1a21seWgxUWR4VHZCdHdSeHhsWEEzVWE1UXpfaFFTT1ZCdmVPc2EybEV4X3RTSnNFYS1CWHJyRFNRTzdKVGgwai04Wk9FcDZZSFlZUS00TXQwT2hWQm01RDVmYWdCbTJCMzRvSHJLd2xVUDBYbjdOTklWSDdxSEt2TTgzRkZVRHoybXB6eWdRTWMzd2tyLTA1Wk1zRVBMVWJv?oc=5",
-      "fonte": "Gov.br",
-      "data": "2026-11-12T17:22:00+00:00"
-    },
-    {
-      "titulo": "Congresso aprova recursos para Previdência, Bolsa Família e investimentos",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxON1kxOXdGb2NRNWhheDg5ZnNTbzgwVlEtd0FTUmlLNjZKYVpISms0UkVXWjQ3ZkpPZWlwcmdTMm1zb19rRUYxZEtWeV9hM1Z0YkJpbExVSFV6bVNvWVpTaVViaHpQMGRPUF93YkEwUGtEaVlqUEtaOFJ3cjc1dWE2WVh6d0tfZmlRdXEwVjhtZG8zd1lmaXdTcTA2b3M2TzBabmFDTjNxQTduTnhzdDd1czQ4Z0xyRHoyRTRqbVo1MW1sZDdLQXc?oc=5",
-      "fonte": "Agência Senado",
-      "data": "2026-11-12T16:44:00+00:00"
     }
   ]
 }
