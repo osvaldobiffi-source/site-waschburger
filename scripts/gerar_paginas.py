@@ -47,10 +47,10 @@ AREAS = [
         "sub": "Orientação para quem precisa pedir, revisar ou recorrer de um benefício do INSS, e para servidores públicos.",
         "assunto": "um assunto previdenciário",
         "servicos": [
-            ("Aposentadoria rural", "Para quem trabalha ou trabalhou na roça com a família. A idade mínima é de 55 anos para mulheres e 60 para homens, com 15 anos de atividade rural comprovada por documentos como notas e bloco de produtor."),
-            ("Aposentadoria e planejamento", "Conferência do histórico de contribuições (CNIS), cálculo das regras de transição da Reforma da Previdência de 2019 e pedido no momento adequado."),
-            ("Benefício do INSS negado", "Análise da carta de indeferimento e dos documentos para decidir entre novo pedido, recurso ao próprio INSS ou ação na Justiça."),
-            ("BPC/LOAS", "Benefício de um salário mínimo para idosos a partir de 65 anos e pessoas com deficiência de família de baixa renda. Não exige contribuição ao INSS, mas exige inscrição no CadÚnico."),
+            ("Aposentadoria rural", "Para quem trabalha ou trabalhou na roça com a família. A idade mínima é de 55 anos para mulheres e 60 para homens, com 15 anos de atividade rural comprovada por documentos como notas e bloco de produtor.", "aposentadoria-rural"),
+            ("Aposentadoria e planejamento", "Conferência do histórico de contribuições (CNIS), cálculo das regras de transição da Reforma da Previdência de 2019 e pedido no momento adequado.", "aposentadoria"),
+            ("Benefício do INSS negado", "Análise da carta de indeferimento e dos documentos para decidir entre novo pedido, recurso ao próprio INSS ou ação na Justiça.", "beneficio-negado"),
+            ("BPC/LOAS", "Benefício de um salário mínimo para idosos a partir de 65 anos e pessoas com deficiência de família de baixa renda. Não exige contribuição ao INSS, mas exige inscrição no CadÚnico.", "bpc-loas"),
             ("Auxílio-acidente", "Para quem ficou com sequela que reduz a capacidade para o trabalho depois de um acidente de qualquer tipo. Pode ser recebido junto com o salário."),
             ("Pensão por morte", "Para os dependentes de quem faleceu: cônjuge ou companheiro, filhos e, em alguns casos, pais e irmãos."),
             ("Aposentadoria de servidores públicos", "Regras de aposentadoria e pensão dos regimes próprios de estados e municípios."),
@@ -137,7 +137,7 @@ def menu(prefixo, atual=None):
 </div>
 </div>
 <a href="{prefixo}#sobre" class="menu-link">Sobre</a>
-<a href="{prefixo}#conteudo" class="menu-link">Notícias</a>
+<a href="{prefixo}artigos/" class="menu-link">Artigos</a>
 <a href="{prefixo}#contato" class="menu-link">Contato</a>
 <a href="https://wa.me/{WHATS}?text={quote('Olá! Vim pelo site e gostaria de mais informações.', safe='')}" class="botao botao-branco botao-menor">Falar no WhatsApp</a>
 </nav>"""
@@ -160,7 +160,7 @@ def schema(a):
                 "name": a["nome"],
                 "itemListElement": [
                     {"@type": "Offer", "itemOffered": {"@type": "Service", "name": nome}}
-                    for nome, _ in a["servicos"]
+                    for nome, *_ in a["servicos"]
                 ],
             },
         },
@@ -186,7 +186,10 @@ def pagina(a):
     url = f"{SITE}{a['slug']}/"
     whats = link_whats(a["assunto"])
     servicos = "\n".join(
-        f'<li><h3>{e(n)}</h3><p>{e(t)}</p></li>' for n, t in a["servicos"]
+        f'<li><h3>{e(sv[0])}</h3><p>{e(sv[1])}</p>'
+        + (f'<a href="{sv[2]}/" class="link-servico">Saiba mais sobre {e(sv[0] if sv[0] == "BPC/LOAS" else sv[0][0].lower() + sv[0][1:])}</a>' if len(sv) > 2 else "")
+        + "</li>"
+        for sv in a["servicos"]
     )
     docs = "\n".join(f"<li>{e(d)}</li>" for d in a["documentos"])
     duvidas = "\n".join(

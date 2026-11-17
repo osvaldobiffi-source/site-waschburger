@@ -277,3 +277,35 @@ main:focus { outline: none; }
   .outras-areas { padding: 24px; }
   .area-cta .botao { flex: 1 1 100%; }
 }
+
+/* Artigos */
+.assinatura { font-size: 16px; color: var(--texto-claro); }
+.artigo { max-width: 780px; padding-top: 64px; padding-bottom: 88px; display: flex; flex-direction: column; gap: 18px; }
+.artigo h2 { font-family: var(--serif); font-weight: 600; font-size: 30px; line-height: 1.2; color: var(--azul); margin-top: 24px; }
+.artigo p, .artigo li { color: var(--texto); }
+.artigo ul { padding-left: 22px; display: flex; flex-direction: column; gap: 8px; }
+.artigo-lead { font-size: 21px; line-height: 1.55; }
+.tabela-rolagem { overflow-x: auto; }
+.artigo table { width: 100%; border-collapse: collapse; font-size: 16px; min-width: 520px; }
+.artigo caption { text-align: left; font-weight: 600; color: var(--texto-suave); padding-bottom: 8px; }
+.artigo th, .artigo td { text-align: left; padding: 12px 14px; border-bottom: 1px solid var(--linha); vertical-align: top; }
+.artigo thead th { background: var(--azul); color: #FFFFFF; font-weight: 600; }
+.artigo tbody th { color: var(--azul); }
+.fontes { font-size: 15px; color: var(--texto-suave) !important; }
+.artigo-cta { margin-top: 32px; background: var(--claro); border-radius: 20px; padding: 32px; display: flex; flex-direction: column; gap: 14px; }
+.artigo-cta h2 { margin-top: 0; font-size: 26px; }
+.artigo-cta p { color: var(--texto-suave); }
+.lista-artigos { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 16px; }
+.lista-artigos a { display: flex; flex-direction: column; gap: 6px; text-decoration: none; border: 1px solid var(--linha); border-top: 3px solid var(--azul); border-radius: 0 0 16px 16px; padding: 24px 26px; }
+.lista-artigos strong { font-family: var(--titulo); font-size: 22px; line-height: 1.3; color: var(--azul); }
+.lista-artigos a > span:last-child { color: var(--texto-suave); }
+.lista-artigos a:hover strong { text-decoration: underline; text-underline-offset: 4px; }
+@media (max-width: 760px) {
+  .artigo { padding-top: 32px; padding-bottom: 48px; }
+  .artigo h2 { font-size: 24px; }
+  .artigo-lead { font-size: 18px; }
+  .artigo-cta { padding: 22px; }
+  .artigo-cta .botao { flex: 1 1 100%; }
+}
+.link-servico { margin-top: auto; padding-top: 6px; font-weight: 600; text-underline-offset: 4px; }
+.artigo a { text-underline-offset: 3px; }
