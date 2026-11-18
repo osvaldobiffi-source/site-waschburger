@@ -38,11 +38,18 @@ AREAS = {
 DESCARTAR = re.compile(r"^(solicitar|consultar|receber|bem-vindo|páginas|meu inss|sistema nacional"
                        # Programas de rádio/TV do Senado: o título é o nome do programa, não a notícia.
                        r"|onze minutos|edição da (manhã|tarde|noite)|senado notícias|conexão senado"
-                       r"|repórter senado|rádio senado|a voz do brasil|senado em pauta|home page)\b", re.I)
+                       r"|repórter senado|rádio senado|a voz do brasil|senado em pauta|home page"
+                       # Páginas institucionais do INSS/gov.br que não são notícia.
+                       r"|pmf perícias|faq)\b", re.I)
 # Temas que batem nas palavras-chave mas não interessam ao cliente (ex.: "aposentadoria compulsória" de juiz punido).
-FORA_DO_TEMA = re.compile(r"compulsória|desembargador|magistrad|condena|operação |login", re.I)
+FORA_DO_TEMA = re.compile(r"compulsória|desembargador|magistrad|condena|operação |login"
+                          # Votações e disputa política ("ajuste fiscal", "oposição") e temas assistenciais fora da área.
+                          r"|ajuste fiscal|oposição|destaques|violência|bolsa família|senha (do )?gov"
+                          # Notícias de outros estados: "em Campo Grande (MS)". SC fica de fora da lista.
+                          r"|\((?:AC|AL|AM|AP|BA|CE|DF|ES|GO|MA|MG|MS|MT|PA|PB|PE|PI|PR|RJ|RN|RO|RR|RS|SE|SP|TO)\)", re.I)
 # Fontes estaduais e municipais ficam de fora: o foco é a esfera federal.
-FONTES_FORA = re.compile(r"prefeitura|assembleia|governo d[eoa] |câmara municipal|agenciasp|sefaz|\.sp\.gov|\.pr\.gov", re.I)
+FONTES_FORA = re.compile(r"prefeitura|assembleia|governo d[eoa] |câmara municipal|agenciasp|sefaz|secretaria d[ae] fazenda|munic[ií]pi|municipal"
+                         r"|\.sp\.gov|\.pr\.gov", re.I)
 
 
 def baixar(url):
@@ -103,7 +110,7 @@ def limpar_titulo(item):
     # O Google Notícias termina o título com " - Fonte".
     if fonte and t.endswith(" - " + fonte):
         t = t[: -len(fonte) - 3]
-    t = re.sub(r"\s+[—-]\s+(GOV\.BR|www\.gov\.br|Governo Federal)$", "", t)
+    t = re.sub(r"\s+[—-]\s+(GOV\.BR|www\.gov\.br|Governo Federal|Rádio Senado|Senado Notícias|TV Senado)$", "", t)
     # Páginas do gov.br trazem o órgão no fim: "Título — Receita Federal".
     m = re.match(r"(.+?)\s+—\s+(.+)$", t)
     if m and re.match(r"(gov\.br|www\.gov\.br|governo federal)$", fonte, re.I):

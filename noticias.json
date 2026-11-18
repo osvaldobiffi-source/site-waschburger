@@ -1,79 +1,61 @@
 {
-  "atualizado": "2026-11-15T09:33+00:00",
+  "atualizado": "2026-11-18T00:11+00:00",
   "tributario": [
     {
-      "titulo": "Revista da Semana: Votação do projeto de ajuste fiscal deve ser concluída na próxima terça",
-      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQWklvVDlCZ0k1a0d6ak9GUENvOU1uMVhRVkQzclZlNXJnMDA3S09aM0pPVmI5empVR190WWdoVnEzZVo1cUN6LWRTdnY4eDE1NVVIZFl1ZnFVSkQwTktRX21fT1dYbEVIODIxMWRCbnd4dnhVc1NHdU80Wjg1bUlRZUZfYWRxbUJvV0hMU3pkbXQ4MlBDNFhaTlBsT2VKT2JKWkg5R3l1REliakduMjJOcGt5RkJpNnZQZnk2RmsyREk5d01OSjA2SEhZNkw3eU5jTkVJWkMzWlduNXVIWktIODctRU9KbHlUYkE?oc=5",
+      "titulo": "Governo e senadores defendem início da CBS em janeiro, sem adiamento",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNQ3hsQkFWTVcwMmZEOFg2ZW5EeEh4M29Ua0RUMy1KcXIyOEQzeXlvR29VSk9rOEllQmhybnBwOTBjUzRweWJ1UDdscDNKR3NVYm9VczJNQjBGdUI5blVScHBzdGMyVm1HSjJBMjZkYUpsQmlXT09OS3FFT1FqVmNzSTQxZXEyOTJjaHY4X25oUDBiU0IwZXlzbnZyRG9fTzhUVWVhS3RtZU83WkZCaUdld0hPa3AzLXV4aU11SFlrMA?oc=5",
       "fonte": "Agência Senado",
-      "data": "2026-11-13T21:09:03+00:00"
+      "data": "2026-11-17T22:40:00+00:00"
     },
     {
-      "titulo": "CGNFS-e informa: Ato Conjunto RFB/CGIBS nº 7/2026 atualiza o cronograma de obrigatoriedade de emissão da NFS-e para IBS e CBS.",
-      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQc0x5WGRUQXRWVElNU2tXUjhIS0VET2Z0SHVha3Ixa0RIWkZlQXRudXZJS0ZwcWZBcFNyemtSWmFRQ0ptenFYekl6MVg5akZONGh0NEdteWRrRmlPZ0FjWDRiLUI0aFJTVy1Sc0pwSlVJdC1weFFCZ2dqa1NlSzdkRFZWbENxRzB2Mm0tVkh2R3lROWJpcmhuNy1EMHNxSjMydUdNc1RkNTc0bGhWMmhMeW9zY3FMYjFRS3M4ZHZocko2bkR6Zi1sQlJZZExmckhqRjJmQ2tsemdydFNSZ00weGNoRnJyZWZNMEp0Z3V5a1VEMmhVZXc?oc=5",
-      "fonte": "Gov.br",
-      "data": "2026-11-13T19:29:27+00:00"
-    },
-    {
-      "titulo": "CAE: ministro da Fazenda debate alíquota da CBS na terça-feira",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNSWJpNC1MbmFaaHpRUUFyUTh5MnEtaXoxN2w5WXBjNkk4US1zQXh4NVFGbV9idjl0bThManpGQ3k2QUw1TDVKUHFqNlZPLWxwekt4SVozYzdiNmhDSDN5QnRKbVVuQzU3VE5OUGlwTEZKMGdIMkdieTZEZjV2MXFTeVlVbTVxYVNvUjNiMS1KMkg4OGVyVHZKYXpWdk82Wlktb0JuNG04dU9DSnlvTUVScVpWMHduRTRRVkE?oc=5",
+      "titulo": "No Senado, ministro da Fazenda defende novo tributo sobre o consumo",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNQUtXZHZYQ0VsNzQyc2N3TzFtT3ZpaTFpTEtFZEpveEJndTZuZ01IWXd6SXNDelBYWW9yQXluS3BLclNaaE0tTENJUi1MZ3RXNnUwczd3T3h5UURXd1I4a3VFTlFrVlNGNk1BbmtFSlZyV1FJLUI3WDM5czlnM2VkTHhoOU5nZzhyR1Vpb0lJZnd4azlPUWoyRHFUWVZndTVkQ3k3blJqQmF0cGFQWkJKTXlvVldkVzBtcGFZZGxzN08?oc=5",
       "fonte": "Agência Senado",
-      "data": "2026-11-13T19:02:25+00:00"
+      "data": "2026-11-17T20:01:38+00:00"
     },
     {
-      "titulo": "PGDAS-D é atualizado para atender à Reforma Tributária a partir de novembro de 2026",
-      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPdFR1c3dfMExzN2dnNG9wLXVOSzhLM1p1cms4UFpvcUVsRVhlYVA1MlhlRTJmTFFwU2ZUU1Q2UTNremFfbWJsem9kTVlseXIydUFOdXVHazJvamVOd2JLcGU2NkJZZjRzanNfbklzeGY1ZW93YXljcEY3clJrTlJoaVU2YWNOd3ppeXZqQnRza1RfXzN2ejFJajlKWDV1QU9fWmprbmJUN2Y1cWo4VWFHSUJ4SDFXMmlFXzVmMndhMVVpWHlwd3JxdU4yOEFZekNtcnpDYVdSWk5zeWxfVkRvWlE5VjlXbHpTTkww?oc=5",
-      "fonte": "Receita Federal",
-      "data": "2026-11-13T14:44:01+00:00"
-    },
-    {
-      "titulo": "Benefício tributário a entidades filantrópicas é aprovado pela CAS",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQenpOSWJPemJJTExFN2Q4MHZKNnNVTTlibk92R1VsTmw2enlVYzdwaEJIMkJSTzJhLWp2cldWdXItUlR1TFpLbU9uSW9MalJxWW5iYVJvMk96OWNoZzZQa1I4Y2FFLTlFV3dMM000V3FSLV81YkQ2dVJ5TnRmcXM0VENEQ240VUh4TngtYnNfZEdOLVg0UlI2bzNZZDhjcFo0TVFlY3ZRYjRWZ2VJa0FpeXpOV19hWEpXMFE?oc=5",
+      "titulo": "Comissão de Assuntos Econômicos discute alíquota da CBS para 2027",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOYUhZVkVMSC13RzduZFBBVmVDdG11dG5LX2RMR2dJVG1QSktmcWF5aWdyQ3Y0NDJYRnRaUVp5N0tZN3Y5S3RpZUVpVi1SUHp5b0pjdmJPOE51ejNPY1h3R2hGWThnbEVkWGxXcmx2RlQ1UGFpVVFQTzV4LWk1dDZwOGFYVm54R0Q2YTh4eDRfVFZuaTZMQ2hCdlVySjZITzhIa1ZhTWdTdTdoekdwTExnbHU2UzdxdHdSZ3F0VmNXS0JKcEo5TnRJMjJOVGVfZGtsTmlsY2hZaG9ZeTZWRHI2SjNCcFRsbVpMUC1mTDVR?oc=5",
       "fonte": "Agência Senado",
-      "data": "2026-11-13T14:28:47+00:00"
+      "data": "2026-11-17T19:53:15+00:00"
     },
     {
-      "titulo": "Reforma Tributária: tire suas dúvidas e não caia em fake news",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZ0ZrYTd4RWVvSkV2NzZMMWNjQ3R5eVNWa0ZmOThEVmNVeHlYa1NhWjlRcmtHUDB3QVRJUUJYSnZ1cU1hbTlnZ3pMZHJFMEtYdmJUYy1KMmZtbnRpeGdZdDJMZGQtRWJmR2FtMENDNXNZVkNlZ09iRXFJdGpJQ3FSWEpSTGo5RkJseWZOenhHRGFUbVdfV3F1WUFRcTRreFBVOFNMZk9idUdRRlItZzRISjRNRzBkbER1S09SSnNRWHBuZw?oc=5",
+      "titulo": "Receita Federal induz autorregularização de R$ 1,95 bilhão de grande contribuinte",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNc1pORzNQNWI5OGU0a2l3Y3RzeDFaM0tXVUJnX29EOTZtcnNUSi1kUUI2VXpiMDJRTHFocklzUEYzQ0FIMTE0WUVqdHl0c0VTdlVYMDluSWhzekRGbmt6NGpJYk56TEV0TldZS2l1Sk1HWEhTQnlFUzJOQXNVbldlSmNkTWNwMnBzM2owa0VlcC0yVGhsMWpDZnYzUVJsbjNiTHAwZHFsMHF1TjNmY1lSc0NodHBySHRQOGRRRkNjN1p4ay12azJGUzhkRC1XUVFPcS1LRVBOek1wMi1VNHhrYUt2UnZLaXM?oc=5",
+      "fonte": "Governo Federal",
+      "data": "2026-11-17T18:32:50+00:00"
+    },
+    {
+      "titulo": "Reforma Tributária: mitos e verdades sobre impostos, preços e Simples Nacional",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQaUtFX0x6MkZielFoQ3Q2Vktxa0t5NHo0OUQ2Zi1qajlUYkFvQkhGMkJwb1VRSTV2MTBGTUlhcmZ6SUtMSk10ZFBRVmpWaThfUHRxM2tJRFVpTTdCSmZDbFJsRFhaV0l5T1VtcVlpcks5NnlzNEZEMEoweGZtZnlpaTBXbC1HNHl3Sk1McnBTOE13Qmg4aWNOclg2bHZ6TU9iRU5iM3lHMmxLVU1yUGQ2aDg4WkFxSXB5OGxTMTFaTzFvTWxmZGlJT25xZlNmSDNkZjN3?oc=5",
       "fonte": "Agência Senado",
-      "data": "2026-11-13T13:29:19+00:00"
+      "data": "2026-11-17T18:10:03+00:00"
+    },
+    {
+      "titulo": "Receita Federal disponibiliza API para emissão do Recolhimento como Adquirente (RAD)",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPSVJrX2xvSDRvWk54SjFWb1NLZlZobG5zdVZIRTJmUzhocVotTTA0bW1sblVBdFZ5dV9CNEZFNzNXRDhEWW5xbWxGbFVxSHBRM0EyX2NWMHFfc19EQnJiZU9rS0lZQ3hQRlB1TFlKenBST2FHd2hIUmlqekI2VXpUWlA4WTNkeDVxWC00akxIcGtrYzFnUUpLRDJJNk9QQnU5X3d3d1ZJcTZMQjFRNmEwakpLdDU1c1BNSlNWeHROczN6WUdWQ3N1WXhNSVZDMWlOenB3UGN1S0FzX25obWZtcA?oc=5",
+      "fonte": "Ministério da Fazenda",
+      "data": "2026-11-17T17:52:00+00:00"
     }
   ],
   "previdenciario": [
     {
-      "titulo": "Desligamento voluntário do Bolsa Família: entenda como funciona a proteção de renda para quem solicita o BPC",
-      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQWXBRSTM2QWNoaHVJRE1VNzhOanNVZm45MlJmU0ptYTRWS1BIT2Yya3VhZVYybmdTRTdWYlFtby1DQ0FOeFBLUEs0dS1HRzVGd1ZJMjhXc1ZxMXlYcjRlMmtyc1dDcFJZX0dvMWR2ei0xelB6R2w2aGstbW5OVlBUaTBqVF9jZktJX3JVNEg5ejhzVVpDdjVmM2xNU3hWVUYtMS1QWVZjeDI5Ni10REhxcFpzNElpdHNfaV84aEliYkRrU1J4Y1VLcTJUMDl2clltQXVHbVNsckhwR1MxVFEtb1FveE03MTRCbW9veW5Kc0ZjODB5Ull3ZXE0Ny1TdkU1?oc=5",
-      "fonte": "Rede do Esporte",
-      "data": "2026-11-13T21:15:25+00:00"
-    },
-    {
-      "titulo": "INSS orienta trabalhadores domésticos em Campo Grande (MS)",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQ0NGMG9LZUVHTG5ZTEJYdWktbEFCeE1WU1hRcEt6MEptOHlJWF9WSVFqUzBrZXJSbk9xTEh2ZWpBZnVoM2tuRzg1X25CNm5faFB1TGtlTVV0NW9xQlBkZGdkSGV0VE1GN0J4bXJxbU9ST1I4SHpkeDFrZ3F1ZlliM3ppUlJaZDhOcEpBTjRRbTVkNURFOXJIZm16WWVLcFh2NTVEYUphWQ?oc=5",
-      "fonte": "INSS",
-      "data": "2026-11-13T14:39:00+00:00"
+      "titulo": "Ministério da Previdência Social lança pesquisa sobre simuladores de benefícios das Entidades Fechadas de Previdência Complementar",
+      "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQMkwwY21SQm5ZZm9VaWx0R1YxZWtEeS1nVGhfdW0wR3RKenJsYkFRR215NFRmTGFxMDAzMkZxaHhjZmpzdVFjbGF5UmpsbHgxeTM0S2Z4dFF3WDB3Q1VPcm42Vm9TYU91Ym1YNk4tVUF0YVU4QXhBUXctVDcwbHc4VXVjeEU0WVgxRzI1dGoyck1uekRhdURfMl9CVS1Ma20zQlpQc2tqRW1kM1JNQk1MaUFBZThSdjF3VUt5NlRrZUJSZTVvaWlwWjEwM3h3Uy0tRFAtZ09vUjJielExVFBCa3ltbUYwTUZKR3UxbFhDUWY2V0VSWi02WjlFNnVMaEo1N2ZWc28yYkRnZjkwV05xZ0F5SVlsaFJsaFE?oc=5",
+      "fonte": "Governo Federal",
+      "data": "2026-11-16T08:30:00+00:00"
     },
     {
       "titulo": "Mutirão de atendimentos do INSS oferece quase 8 mil vagas neste fim de semana (14 e 15)",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPT01MTU8zMGNUQmxSVjI0N1FINjhOd1ppd0l0RUZrVDdfMXQ2MXA2eEVybWRGUzM4bUJQZEJpazAyMnIxaWhDY2VmcmxYQk1qdmkxbEtlQWRqaU1ubnlFSlM5MFAtSU5SVW5pQTNlaUFsNFBHRjRTcjVaSmJUQ0xldFVlTzlsUk5WeEFrQzUyeXZ4UzJpaVNIUHZ0S0ZKOWs4YW5JT0h5UlVHT0RPSnQtZ0xNMXVjOHEzMzVHQWE4ZnhPbUd6YjYzYnRsWkZOUQ?oc=5",
-      "fonte": "Gov.br",
+      "fonte": "Governo Federal",
       "data": "2026-11-12T20:26:00+00:00"
     },
     {
-      "titulo": "Previdência e Bolsa Família terão crédito de R$ 149 bi após aval do Congresso",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNNE40TUVFNXoyS3ZvM21uNUZvRzJwTFQ5amdvWDBUeGJOVm5BZTdsbmoybG9TR291S2hscFBWRlZmVDg2dTdHQWdPaHk1T3NKckJMWnhTa2Z6SGRQbTEzQ19pcDVmaWdCRGlONnVOeVVKZEplcndteXh1NGJ4UWNmUVdKQ2MyOWluRkYydmpWYkRPUUxxU2VaSmE4NE1oU2FJQzFnRXRmVnJYanhsOS1XTlJTeElJQUpYVmdSRmhaZGNOODNfdWJjYThjYU41Zw?oc=5",
-      "fonte": "Agência Senado",
-      "data": "2026-11-12T17:41:35+00:00"
-    },
-    {
-      "titulo": "INSS leva orientações previdenciárias à Aldeia Jaguapiru, em Dourados (MS)",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNOVdKdGVYdGJLRW1JbkVBaW0xZFp2aHp6eXF1a21seWgxUWR4VHZCdHdSeHhsWEEzVWE1UXpfaFFTT1ZCdmVPc2EybEV4X3RTSnNFYS1CWHJyRFNRTzdKVGgwai04Wk9FcDZZSFlZUS00TXQwT2hWQm01RDVmYWdCbTJCMzRvSHJLd2xVUDBYbjdOTklWSDdxSEt2TTgzRkZVRHoybXB6eWdRTWMzd2tyLTA1Wk1zRVBMVWJv?oc=5",
-      "fonte": "Gov.br",
-      "data": "2026-11-12T17:22:00+00:00"
-    },
-    {
-      "titulo": "Congresso aprova recursos para Previdência, Bolsa Família e investimentos",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxON1kxOXdGb2NRNWhheDg5ZnNTbzgwVlEtd0FTUmlLNjZKYVpISms0UkVXWjQ3ZkpPZWlwcmdTMm1zb19rRUYxZEtWeV9hM1Z0YkJpbExVSFV6bVNvWVpTaVViaHpQMGRPUF93YkEwUGtEaVlqUEtaOFJ3cjc1dWE2WVh6d0tfZmlRdXEwVjhtZG8zd1lmaXdTcTA2b3M2TzBabmFDTjNxQTduTnhzdDd1czQ4Z0xyRHoyRTRqbVo1MW1sZDdLQXc?oc=5",
-      "fonte": "Agência Senado",
-      "data": "2026-11-12T16:44:00+00:00"
+      "titulo": "Voto no segundo turno também vale como Prova de Vida no INSS",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUTJkNmNkaDhBSlNXdmlLMnJrdl8zNEw3bFgwZ3lmdkh0NjFIM0JuTEl1RVlmWnZ3SjQ5MWlkd2pzUUxLVUJVbkl5eHBPNlIxcWFFa2dJTDVYOUlaenAwc05OekVxdUNydG5YWkhhR2JQRXdUb1dpdkVkVHNPVVJ5NVRvcDBsODJpUVFZcURPV0kzbm9rblNULVhpSWpnUURVbkpPYjFwV3E4ZmJS?oc=5",
+      "fonte": "INSS",
+      "data": "2026-10-19T07:00:00+00:00"
     }
   ]
 }

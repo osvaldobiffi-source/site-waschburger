@@ -1,0 +1,5 @@
+# Arquivos internos que não devem ser publicados no site.
+exclude:
+  - README.md
+  - scripts
+  - graphify-out
