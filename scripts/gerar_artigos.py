@@ -1,6 +1,7 @@
 """Gera os artigos do blog (artigos/<slug>/) e a lista (artigos/).
 
-Cada artigo só entra aqui depois da aprovação do José. Rode:  python scripts/gerar_artigos.py
+Cada artigo só vai ao ar depois da aprovação do José: enquanto não aprovado, fica com
+"rascunho": True (não gera página nem entra no sitemap). Rode:  python scripts/gerar_site.py
 Texto informativo, conforme o Provimento 205/2021 da OAB.
 """
 import json
@@ -13,6 +14,7 @@ AUTOR = "José Viro Waschburger"
 
 ARTIGOS = [
     {
+        "rascunho": True,  # aguardando correção do José
         "slug": "mp-1376-renegociacao-dividas-rurais",
         "titulo": "MP 1.376/2026: o que muda na renegociação de dívidas rurais",
         "descricao": "Quem pode renegociar, quais dívidas entram, juros, prazos e documentos da MP 1.376/2026, aprovada pelo Congresso em novembro de 2026.",
@@ -83,6 +85,10 @@ ARTIGOS = [
 """,
     },
 ]
+
+
+def publicados():
+    return [a for a in ARTIGOS if not a.get("rascunho")]
 
 
 def data_br(iso):
@@ -208,8 +214,10 @@ def lista():
     url = f"{SITE}artigos/"
     itens = "\n".join(
         f'<li><a href="{a["slug"]}/"><span class="rotulo">{e(a["area"][0])} · {data_br(a["publicado"])}</span><strong>{e(a["titulo"])}</strong><span>{e(a["resumo"])}</span></a></li>'
-        for a in sorted(ARTIGOS, key=lambda x: x["publicado"], reverse=True)
+        for a in sorted(publicados(), key=lambda x: x["publicado"], reverse=True)
     )
+    if not itens:
+        itens = '<li class="vazio">Os primeiros artigos serão publicados em breve.</li>'
     whats = link_whats("um assunto")
     return cabeca("Artigos | Waschburger Advocacia", "Artigos informativos sobre direito tributário, previdenciário, bancário e rural, escritos por José Viro Waschburger, OAB/SC 78.480.", url, p, tipo="website") + f"""
 <main id="principal" tabindex="-1">
@@ -233,15 +241,17 @@ def main():
     pasta = RAIZ / "artigos"
     pasta.mkdir(exist_ok=True)
     (pasta / "index.html").write_text(lista(), encoding="utf-8", newline="\n")
-    for a in ARTIGOS:
+    for a in publicados():
         d = pasta / a["slug"]
         d.mkdir(exist_ok=True)
         (d / "index.html").write_text(artigo(a), encoding="utf-8", newline="\n")
         print("ok", a["slug"])
-    # sitemap: acrescenta artigos
+    # sitemap: acrescenta artigos (a lista só entra quando houver artigo publicado)
+    if not publicados():
+        return
     sm = RAIZ / "sitemap.xml"
     s = sm.read_text(encoding="utf-8")
-    for u in [f"{SITE}artigos/"] + [f"{SITE}artigos/{a['slug']}/" for a in ARTIGOS]:
+    for u in [f"{SITE}artigos/"] + [f"{SITE}artigos/{a['slug']}/" for a in publicados()]:
         if u not in s:
             s = s.replace("</urlset>", f"  <url><loc>{u}</loc></url>\n</urlset>")
     sm.write_text(s, encoding="utf-8", newline="\n")
