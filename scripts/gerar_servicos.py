@@ -55,6 +55,7 @@ SERVICOS = [
         ],
         "documentos": [
             "Documento de identidade, CPF e comprovante de residência.",
+            "Celular com acesso ao gov.br (login e senha), para consultar o Meu INSS durante a conversa.",
             "Certidões de casamento e de nascimento dos filhos.",
             "Notas e bloco de produtor, contratos e outros documentos do trabalho no campo, dos mais antigos aos mais recentes.",
         ],
@@ -94,6 +95,7 @@ SERVICOS = [
         ],
         "documentos": [
             "Extrato do CNIS, que sai pelo aplicativo ou site Meu INSS.",
+            "Celular com acesso ao gov.br (login e senha), para consultar o Meu INSS durante a conversa.",
             "Carteiras de trabalho e carnês, se houver.",
             "PPP e LTCAT, para quem trabalhou com ruído, produtos químicos ou risco.",
             "Documentos do trabalho rural, se houver tempo na roça.",
@@ -140,6 +142,7 @@ SERVICOS = [
         ],
         "documentos": [
             "Documento de identidade e CPF de todos da casa.",
+            "Celular com acesso ao gov.br (login e senha), para consultar o Meu INSS durante a conversa.",
             "Comprovante de inscrição no CadÚnico.",
             "Laudos, receitas e relatórios médicos ou de terapia.",
             "Notas e recibos de remédios, fraldas e tratamentos.",
@@ -186,6 +189,7 @@ SERVICOS = [
         ],
         "documentos": [
             "Carta de indeferimento ou notificação de corte.",
+            "Celular com acesso ao gov.br (login e senha), para consultar o Meu INSS durante a conversa.",
             "Número do benefício e extrato do CNIS (Meu INSS).",
             "Laudos, exames e documentos enviados ao INSS no pedido.",
         ],

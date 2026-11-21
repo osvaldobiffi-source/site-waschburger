@@ -57,6 +57,7 @@ AREAS = [
         ],
         "documentos": [
             "Documento de identidade e CPF.",
+            "Celular com acesso ao gov.br (login e senha), para consultar o Meu INSS durante a conversa.",
             "Extrato do CNIS, que sai pelo aplicativo ou site Meu INSS.",
             "Carteiras de trabalho e a carta do INSS, se o pedido já foi feito.",
             "Para atividade rural: notas de produtor, bloco, contratos e outros documentos do trabalho no campo.",
