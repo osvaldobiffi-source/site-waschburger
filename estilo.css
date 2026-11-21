@@ -223,3 +223,90 @@ main:focus { outline: none; }
   .rodape-linha { padding-bottom: 104px; }
   .whats-flutuante { display: flex; }
 }
+
+/* Menu: lista das áreas ao passar o mouse ou focar */
+.submenu { position: relative; }
+.submenu-lista { display: none; position: absolute; top: 100%; left: -16px; z-index: 20; min-width: 220px; padding: 10px 0; margin-top: 8px; background: #FFFFFF; border-radius: 14px; box-shadow: 0 12px 30px rgba(15,29,63,.25); }
+.submenu-lista::before { content: ""; position: absolute; left: 0; right: 0; top: -12px; height: 12px; }
+.submenu:hover .submenu-lista, .submenu:focus-within .submenu-lista { display: flex; flex-direction: column; }
+.submenu-lista a { padding: 10px 20px; color: var(--azul); text-decoration: none; font-weight: 600; }
+.submenu-lista a:hover, .submenu-lista a:focus-visible, .submenu-lista a[aria-current] { background: var(--claro); }
+.submenu-lista a:focus-visible { outline-offset: -3px; outline-color: var(--azul); }
+
+/* Links das áreas na página inicial */
+.area h3 a, .outra h3 a { color: inherit; text-decoration: none; }
+.area h3 a:hover, .outra h3 a:hover { text-decoration: underline; text-underline-offset: 5px; }
+.link-area { font-weight: 600; text-underline-offset: 4px; }
+.area-escura .link-area, .outra .link-area { color: #FFFFFF; }
+.area-escura .link-area:hover, .outra .link-area:hover { color: var(--dourado); }
+
+/* Páginas de área */
+.hero-area-texto { padding-top: 56px; padding-bottom: 72px; display: flex; flex-direction: column; gap: 22px; }
+.hero-area h1 { font-size: 50px; max-width: 18em; }
+.trilha { font-size: 15px; color: var(--texto-apagado); }
+.trilha a { color: var(--texto-claro); }
+.area-pagina { padding-top: 88px; padding-bottom: 88px; display: flex; flex-direction: column; gap: 32px; }
+.area-pagina h2 { font-family: var(--serif); font-weight: 600; font-size: 38px; line-height: 1.15; color: var(--azul); }
+.servicos { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); gap: 20px; }
+.servicos li { border: 1px solid var(--linha); border-top: 3px solid var(--azul); border-radius: 0 0 16px 16px; padding: 26px 26px 28px; display: flex; flex-direction: column; gap: 10px; }
+.servicos h3 { font-family: var(--titulo); font-weight: 700; font-size: 20px; line-height: 1.25; color: var(--azul); }
+.servicos p, .duvida p, .lista-docs li, .area-cta p, .nota { color: var(--texto-suave); }
+.area-colunas { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); gap: 56px; }
+.area-colunas > div { display: flex; flex-direction: column; gap: 20px; }
+.area-colunas h2 { font-size: 30px; }
+.lista-docs { padding-left: 22px; display: flex; flex-direction: column; gap: 8px; }
+.nota { font-size: 15px; }
+.duvida { display: flex; flex-direction: column; gap: 6px; padding-bottom: 18px; border-bottom: 1px solid var(--linha); }
+.duvida h3 { font-family: var(--titulo); font-weight: 700; font-size: 18px; color: var(--azul); }
+.area-final { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 380px), 1fr)); gap: 40px; align-items: start; }
+.area-cta { display: flex; flex-direction: column; gap: 18px; }
+.outras-areas { background: var(--azul); border-radius: 20px; padding: 32px; display: flex; flex-direction: column; gap: 4px; }
+.outras-areas h2 { color: #FFFFFF; font-size: 26px; margin-bottom: 10px; }
+.outra-area { color: #FFFFFF; font-weight: 600; text-decoration: none; padding: 12px 0; border-top: 1px solid rgba(255,255,255,.18); }
+.outra-area::after { content: " →"; }
+.outra-area:hover { color: var(--dourado); }
+.outras-areas :focus-visible { outline-color: #FFFFFF; }
+
+@media (max-width: 760px) {
+  .hero-area-texto { padding-top: 24px; padding-bottom: 40px; gap: 16px; }
+  .hero-area h1 { font-size: 32px; }
+  .area-pagina { padding-top: 48px; padding-bottom: 48px; gap: 22px; }
+  .area-pagina h2, .area-colunas h2 { font-size: 26px; }
+  .area-colunas { gap: 40px; }
+  .servicos li { padding: 20px; }
+  .outras-areas { padding: 24px; }
+  .area-cta .botao { flex: 1 1 100%; }
+}
+
+/* Artigos */
+.assinatura { font-size: 16px; color: var(--texto-claro); }
+.artigo { max-width: 780px; padding-top: 64px; padding-bottom: 88px; display: flex; flex-direction: column; gap: 18px; }
+.artigo h2 { font-family: var(--serif); font-weight: 600; font-size: 30px; line-height: 1.2; color: var(--azul); margin-top: 24px; }
+.artigo p, .artigo li { color: var(--texto); }
+.artigo ul { padding-left: 22px; display: flex; flex-direction: column; gap: 8px; }
+.artigo-lead { font-size: 21px; line-height: 1.55; }
+.tabela-rolagem { overflow-x: auto; }
+.artigo table { width: 100%; border-collapse: collapse; font-size: 16px; min-width: 520px; }
+.artigo caption { text-align: left; font-weight: 600; color: var(--texto-suave); padding-bottom: 8px; }
+.artigo th, .artigo td { text-align: left; padding: 12px 14px; border-bottom: 1px solid var(--linha); vertical-align: top; }
+.artigo thead th { background: var(--azul); color: #FFFFFF; font-weight: 600; }
+.artigo tbody th { color: var(--azul); }
+.fontes { font-size: 15px; color: var(--texto-suave) !important; }
+.artigo-cta { margin-top: 32px; background: var(--claro); border-radius: 20px; padding: 32px; display: flex; flex-direction: column; gap: 14px; }
+.artigo-cta h2 { margin-top: 0; font-size: 26px; }
+.artigo-cta p { color: var(--texto-suave); }
+.lista-artigos { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 16px; }
+.lista-artigos a { display: flex; flex-direction: column; gap: 6px; text-decoration: none; border: 1px solid var(--linha); border-top: 3px solid var(--azul); border-radius: 0 0 16px 16px; padding: 24px 26px; }
+.lista-artigos strong { font-family: var(--titulo); font-size: 22px; line-height: 1.3; color: var(--azul); }
+.lista-artigos a > span:last-child { color: var(--texto-suave); }
+.lista-artigos a:hover strong { text-decoration: underline; text-underline-offset: 4px; }
+.lista-artigos .vazio { color: var(--texto-suave); font-size: 18px; border: 1px solid var(--linha); border-top: 3px solid var(--azul); border-radius: 0 0 16px 16px; padding: 24px 26px; }
+@media (max-width: 760px) {
+  .artigo { padding-top: 32px; padding-bottom: 48px; }
+  .artigo h2 { font-size: 24px; }
+  .artigo-lead { font-size: 18px; }
+  .artigo-cta { padding: 22px; }
+  .artigo-cta .botao { flex: 1 1 100%; }
+}
+.link-servico { margin-top: auto; padding-top: 6px; font-weight: 600; text-underline-offset: 4px; }
+.artigo a { text-underline-offset: 3px; }
