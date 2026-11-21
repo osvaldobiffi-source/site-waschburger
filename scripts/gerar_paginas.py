@@ -130,7 +130,8 @@ def menu(prefixo, atual=None):
         f'<a href="{prefixo}{a["slug"]}/"' + (' aria-current="page"' if a["slug"] == atual else "") + f'>{e(a["nome"])}</a>'
         for a in AREAS
     )
-    return f"""<nav aria-label="Menu principal" class="menu">
+    return f"""<button type="button" class="menu-abrir" aria-expanded="false" aria-controls="menu-principal"><span class="menu-icone" aria-hidden="true"></span><span class="menu-texto">Menu</span></button>
+<nav aria-label="Menu principal" class="menu" id="menu-principal">
 <div class="submenu">
 <button type="button" class="menu-link submenu-botao" aria-expanded="false" aria-controls="submenu-areas">Áreas de atuação</button>
 <div class="submenu-lista" id="submenu-areas">
@@ -318,7 +319,10 @@ def main():
     # menu da página inicial
     inicio = RAIZ / "index.html"
     s = inicio.read_text(encoding="utf-8")
-    ini = s.index('<nav aria-label="Menu principal" class="menu">')
+    # o menu começa no botão do celular (se já existir) ou direto no <nav>
+    ini = s.find('<button type="button" class="menu-abrir"')
+    if ini < 0:
+        ini = s.index('<nav aria-label="Menu principal" class="menu"')
     fim = s.index("</nav>", ini) + len("</nav>")
     s = s[:ini] + menu("") + s[fim:]
     inicio.write_text(s, encoding="utf-8", newline="")

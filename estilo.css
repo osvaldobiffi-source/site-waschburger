@@ -312,9 +312,41 @@ main:focus { outline: none; }
 .link-servico { margin-top: auto; padding-top: 6px; font-weight: 600; text-underline-offset: 4px; }
 .artigo a { text-underline-offset: 3px; }
 
-/* Menu fixo no topo ao rolar, só quando o menu cabe em uma linha (a partir de ~910px).
-   Abaixo disso ele quebra em duas linhas (ou some, no celular) e ocuparia muito espaço. */
-@media (min-width: 940px) {
-  html { scroll-padding-top: 104px; }
-  .topo { position: sticky; top: 0; z-index: 30; box-shadow: 0 4px 18px rgba(15,29,63,.3); }
+/* Menu fixo no topo ao rolar. Até 939px (celular e tablet) o menu vira o botão "Menu",
+   porque acima disso ele cabe em uma linha e abaixo quebraria. */
+html { scroll-padding-top: 104px; }
+.topo { position: sticky; top: 0; z-index: 30; box-shadow: 0 4px 18px rgba(15,29,63,.3); }
+.menu-abrir { display: none; }
+@media (max-width: 939px) {
+  .topo-linha { flex-wrap: wrap; row-gap: 0; }
+  .menu-abrir { display: inline-flex; align-items: center; gap: 10px; min-height: 44px; padding: 0 18px; border: 1.5px solid rgba(255,255,255,.45); border-radius: 999px; background: none; color: #FFFFFF; font: inherit; font-size: 16px; font-weight: 600; cursor: pointer; }
+  .menu-icone, .menu-icone::before, .menu-icone::after { display: block; width: 18px; height: 2px; border-radius: 1px; background: currentColor; }
+  .menu-icone { position: relative; }
+  .menu-icone::before, .menu-icone::after { content: ""; position: absolute; left: 0; }
+  .menu-icone::before { top: -6px; }
+  .menu-icone::after { top: 6px; }
+  .topo.aberto .menu-icone { background: transparent; }
+  .topo.aberto .menu-icone::before { top: 0; transform: rotate(45deg); }
+  .topo.aberto .menu-icone::after { top: 0; transform: rotate(-45deg); }
+  .menu { display: none; }
+  .topo.aberto .menu { display: flex; flex-direction: column; align-items: stretch; gap: 0; flex-basis: 100%; padding: 6px 0 20px; max-height: calc(100vh - 72px); overflow-y: auto; font-size: 18px; }
+  .topo.aberto .menu > .menu-link, .topo.aberto .submenu-botao { display: block; width: 100%; padding: 14px 0; border-top: 1px solid rgba(255,255,255,.14); text-align: left; }
+  .topo.aberto .submenu-botao { color: var(--dourado); font-family: var(--serif); font-style: italic; cursor: default; }
+  .topo.aberto .submenu-lista { display: flex; flex-direction: column; position: static; min-width: 0; margin: 0 0 8px; padding: 0; background: none; box-shadow: none; border-radius: 0; }
+  .topo.aberto .submenu-lista a { padding: 10px 0 10px 16px; color: #FFFFFF; font-weight: 400; }
+  .topo.aberto .submenu-lista a:hover, .topo.aberto .submenu-lista a[aria-current] { background: rgba(255,255,255,.08); }
+  .topo.aberto .submenu-lista a:focus-visible { outline-color: #FFFFFF; }
+  .topo.aberto .menu .botao { align-self: stretch; margin-top: 14px; }
+}
+@media (max-width: 760px) {
+  html { scroll-padding-top: 84px; }
+  .topo-linha { flex-wrap: nowrap; column-gap: 12px; }
+  .topo.aberto .topo-linha { flex-wrap: wrap; }
+  .marca { gap: 10px; min-width: 0; }
+  .marca img { width: 42px; height: 42px; }
+  .marca span { font-size: 17px; }
+}
+@media (max-width: 420px) {
+  .menu-abrir { width: 44px; padding: 0; justify-content: center; flex-shrink: 0; }
+  .menu-texto { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 }

@@ -22,3 +22,26 @@ document.querySelectorAll(".submenu").forEach(function (sub) {
     }
   });
 });
+
+// Celular e tablet: botão "Menu" abre e fecha a lista do topo.
+document.querySelectorAll(".menu-abrir").forEach(function (botao) {
+  var topo = botao.closest(".topo");
+  if (!topo) return;
+  function define(aberto) {
+    topo.classList.toggle("aberto", aberto);
+    botao.setAttribute("aria-expanded", aberto ? "true" : "false");
+  }
+  botao.addEventListener("click", function () {
+    define(!topo.classList.contains("aberto"));
+  });
+  // Fecha ao escolher um destino (inclusive âncoras da mesma página, como #contato).
+  topo.querySelectorAll(".menu a").forEach(function (link) {
+    link.addEventListener("click", function () { define(false); });
+  });
+  document.addEventListener("keydown", function (ev) {
+    if (ev.key === "Escape" && topo.classList.contains("aberto")) {
+      define(false);
+      botao.focus();
+    }
+  });
+});
