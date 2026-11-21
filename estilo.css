@@ -354,3 +354,30 @@ html { scroll-padding-top: 104px; }
   .menu-abrir { width: 44px; padding: 0; justify-content: center; flex-shrink: 0; }
   .menu-texto { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 }
+
+/* Áreas de atuação na página inicial: 4 cartões que levam às páginas de cada área */
+.areas-cartoes { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+.area-cartao { display: flex; flex-direction: column; gap: 10px; padding: 36px 40px; border-radius: 16px; text-decoration: none; }
+.area-cartao h3 { font-family: var(--serif); font-style: italic; font-weight: 600; font-size: 34px; line-height: 1.1; }
+.area-cartao .area-publico { font-size: 15px; }
+.area-cartao .area-servicos { margin: 6px 0 14px; }
+.area-ver { margin-top: auto; font-weight: 600; text-decoration: underline; text-underline-offset: 5px; }
+.area-cartao-escuro { background: var(--azul); color: #FFFFFF; }
+.area-cartao-escuro .area-publico, .area-cartao-escuro .area-servicos { color: var(--texto-claro); }
+.area-cartao-claro { background: var(--claro); color: var(--texto); }
+.area-cartao-claro h3, .area-cartao-claro .area-ver { color: var(--azul); }
+.area-cartao-claro .area-publico { color: var(--texto-suave); }
+.area-cartao:hover h3 { text-decoration: underline; text-underline-offset: 6px; text-decoration-thickness: 2px; }
+.area-cartao-escuro:hover .area-ver { color: var(--dourado); }
+.area-outro { display: flex; justify-content: space-between; align-items: center; gap: 24px; flex-wrap: wrap;
+  border: 1.5px solid var(--linha); border-radius: 16px; padding: 26px 36px; }
+.area-outro p { flex: 1 1 420px; color: var(--texto-suave); }
+.area-outro strong { display: block; color: var(--azul); font-family: var(--serif); font-style: italic; font-size: 24px; }
+@media (max-width: 760px) {
+  .areas-cartoes { grid-template-columns: 1fr; gap: 16px; }
+  .area-cartao { padding: 28px 24px; }
+  .area-cartao h3 { font-size: 30px; }
+  .area-outro { padding: 24px; }
+  .area-outro p { flex-basis: 100%; }
+  .area-outro .botao { flex: 1 1 100%; }
+}
