@@ -148,6 +148,7 @@ def rodape(prefixo, whats):
 </footer>
 
 <a href="{whats}" class="whats-flutuante" aria-label="Falar no WhatsApp"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M21 12a9 9 0 0 1-13.2 7.9L3 21l1.2-4.6A9 9 0 1 1 21 12z"/></svg></a>
+<script src="{prefixo}menu.js" defer></script>
 </body>
 </html>
 """

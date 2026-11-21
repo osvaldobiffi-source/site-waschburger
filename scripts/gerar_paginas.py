@@ -131,8 +131,8 @@ def menu(prefixo, atual=None):
     )
     return f"""<nav aria-label="Menu principal" class="menu">
 <div class="submenu">
-<a href="{prefixo}#areas" class="menu-link">Áreas de atuação</a>
-<div class="submenu-lista">
+<button type="button" class="menu-link submenu-botao" aria-expanded="false" aria-controls="submenu-areas">Áreas de atuação</button>
+<div class="submenu-lista" id="submenu-areas">
 {itens}
 </div>
 </div>
@@ -302,6 +302,7 @@ def pagina(a):
 </footer>
 
 <a href="{whats}" class="whats-flutuante" aria-label="Falar no WhatsApp"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M21 12a9 9 0 0 1-13.2 7.9L3 21l1.2-4.6A9 9 0 1 1 21 12z"/></svg></a>
+<script src="../menu.js" defer></script>
 </body>
 </html>
 """
