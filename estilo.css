@@ -311,3 +311,10 @@ main:focus { outline: none; }
 }
 .link-servico { margin-top: auto; padding-top: 6px; font-weight: 600; text-underline-offset: 4px; }
 .artigo a { text-underline-offset: 3px; }
+
+/* Menu fixo no topo ao rolar, só quando o menu cabe em uma linha (a partir de ~910px).
+   Abaixo disso ele quebra em duas linhas (ou some, no celular) e ocuparia muito espaço. */
+@media (min-width: 940px) {
+  html { scroll-padding-top: 104px; }
+  .topo { position: sticky; top: 0; z-index: 30; box-shadow: 0 4px 18px rgba(15,29,63,.3); }
+}
