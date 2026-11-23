@@ -38,11 +38,10 @@ ARTIGOS = [
 
 <h2>Quais dívidas entram</h2>
 <ul>
-<li><strong>Investimento</strong> contratado até 31/12/2025, com parcelas vencidas ou a vencer entre 1º/1/2024 e 31/12/2026.</li>
-<li><strong>Custeio, comercialização e industrialização</strong> contratados até 31/12/2025, mesmo que já renegociados ou prorrogados, em atraso desde 2024, conforme as datas definidas na lei.</li>
-<li><strong>Capital de giro</strong> contratado até 31/12/2025 e em atraso.</li>
+<li><strong>Investimento</strong> contratado até 31/12/2025, com parcelas vencidas ou a vencer entre 1º/1/2021 e 31/12/2026.</li>
+<li><strong>Custeio, comercialização, industrialização e capital de giro</strong> contratados até 31/12/2025, mesmo que já renegociados ou prorrogados, em atraso a partir de 1º/1/2021 e ainda em aberto em 31/10/2026.</li>
 </ul>
-<p>Ficam de fora as dívidas inscritas na Dívida Ativa da União, as contratadas com recursos do Fundo Social e as operações feitas pela MP 1.314/2025. Valores já quitados antes da lei, inclusive por Proagro ou seguro rural, também não entram.</p>
+<p>Ficam de fora as dívidas inscritas na Dívida Ativa da União, as contratadas com recursos do Fundo Social e, em regra, as operações feitas pela MP 1.314/2025. Valores já quitados antes da lei, inclusive por Proagro ou seguro rural, também não entram.</p>
 
 <h2>Juros, limites e prazos</h2>
 <div class="tabela-rolagem">
@@ -76,6 +75,14 @@ ARTIGOS = [
 <li>Extratos e comunicados com as parcelas em atraso.</li>
 <li>Laudos, comunicados de perda, Proagro ou seguro rural das safras afetadas.</li>
 <li>Notas de produtor e outros documentos que mostrem a queda da produção ou da renda.</li>
+</ul>
+
+<h2>Quando buscar orientação</h2>
+<p>Vale procurar orientação jurídica quando:</p>
+<ul>
+<li>o banco ou a cooperativa negar o pedido ou exigir condições diferentes das previstas na lei;</li>
+<li>houver dificuldade para conseguir o laudo que comprova a perda;</li>
+<li>a dívida já estiver em cobrança judicial, em execução ou com pedido de busca e apreensão.</li>
 </ul>
 
 <h2>Atenção: o texto ainda pode mudar</h2>
