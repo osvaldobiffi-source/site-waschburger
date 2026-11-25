@@ -14,6 +14,74 @@ AUTOR = "José Viro Waschburger"
 
 ARTIGOS = [
     {
+        "slug": "aposentadoria-rural-quem-tem-direito",
+        "titulo": "Aposentadoria rural: quem tem direito e quais documentos guardar",
+        "descricao": "Idade, tempo de atividade rural, quem é segurado especial e os documentos que ajudam a comprovar o trabalho no campo para a aposentadoria rural.",
+        "resumo": "Idade, tempo de atividade, quem é segurado especial e os documentos que ajudam a comprovar o trabalho no campo.",
+        "area": ("Direito Previdenciário", "previdenciario"),
+        "assunto": "a aposentadoria rural",
+        "publicado": "2026-11-25",
+        "atualizado": "2026-11-25",
+        "corpo": """
+<p class="artigo-lead">A aposentadoria rural por idade é um dos benefícios mais pedidos ao INSS na nossa região, e também um dos que mais recebem negativa. Na maioria das vezes, o problema não é falta de direito, e sim falta de prova: o trabalho no campo existiu, mas não ficou registrado em documentos.</p>
+
+<p>Este artigo explica quem pode se aposentar como trabalhador rural, quais são os requisitos e o que vale a pena guardar desde já.</p>
+
+<h2>Quem tem direito</h2>
+<p>A regra mais conhecida é a do <strong>segurado especial</strong>: quem trabalha na agricultura, na pecuária ou na pesca artesanal em regime de economia familiar, ou seja, com o trabalho da própria família, sem empregados permanentes. Entram também o cônjuge e os filhos maiores de 16 anos que trabalham junto.</p>
+<p>Em regra, a propriedade explorada deve ter até <strong>4 módulos fiscais</strong>. Ter uma renda extra pequena ou um período curto de trabalho na cidade não tira automaticamente a condição de segurado especial, mas cada caso precisa ser analisado.</p>
+<p>Empregados rurais com carteira assinada e trabalhadores rurais que contribuem por conta própria também podem se aposentar por idade com regras próprias. Aqui vamos tratar principalmente do segurado especial.</p>
+
+<h2>Requisitos</h2>
+<ul>
+<li><strong>Idade:</strong> 60 anos para homens e 55 anos para mulheres. A Reforma da Previdência de 2019 manteve essas idades para o trabalhador rural.</li>
+<li><strong>Tempo de atividade rural:</strong> 15 anos (180 meses) de trabalho no campo.</li>
+<li>Esse tempo deve ser, em regra, o período <strong>imediatamente anterior</strong> ao pedido ou ao momento em que a pessoa completou a idade. Interrupções curtas são admitidas.</li>
+<li>O segurado especial <strong>não precisa ter pago carnê</strong> do INSS. A contribuição dele é descontada na venda da produção.</li>
+</ul>
+<p>O valor do benefício para o segurado especial é, em regra, de <strong>um salário mínimo</strong>.</p>
+
+<h2>Como o INSS confere o trabalho rural</h2>
+<p>O pedido é feito pelo aplicativo ou site Meu INSS, ou pelo telefone 135. Junto com ele, o segurado preenche a <strong>autodeclaração do segurado especial</strong>, informando onde trabalhou, em que períodos, o que produzia e com quem.</p>
+<p>O INSS cruza essas informações com os cadastros oficiais (como o CNIS, registros de imóveis rurais e de agricultura familiar). Por isso, datas erradas ou informações que não batem com os documentos são um dos motivos mais comuns de exigência ou de negativa.</p>
+
+<h2>Documentos que vale a pena guardar</h2>
+<p>Quanto mais anos estiverem cobertos por documentos, melhor. Alguns exemplos:</p>
+<ul>
+<li><strong>Bloco de notas do produtor rural</strong> e notas fiscais de venda da produção.</li>
+<li>Notas e comprovantes de entrega em <strong>cooperativas</strong>, laticínios, cerealistas ou integradoras.</li>
+<li><strong>Contratos de arrendamento, parceria ou comodato</strong>, se a terra não for própria.</li>
+<li>Documentos do imóvel: <strong>ITR, CCIR</strong>, escritura ou matrícula.</li>
+<li><strong>DAP ou CAF</strong> (cadastro da agricultura familiar) e comprovantes de crédito do Pronaf.</li>
+<li>Comprovantes de participação em <strong>sindicato rural</strong> ou associação de produtores.</li>
+<li>Documentos pessoais em que conste a profissão de agricultor ou lavrador: certidão de casamento, certidão de nascimento dos filhos, ficha escolar, cadastro em postos de saúde, título de eleitor antigo.</li>
+<li>Comprovantes de compra de insumos, vacinas e notas de produtos agropecuários em nome do produtor ou da família.</li>
+</ul>
+<p>Documentos em nome do cônjuge ou dos pais também podem servir para mostrar o trabalho da família, desde que a pessoa comprove que trabalhava junto.</p>
+
+<h2>Erros comuns</h2>
+<ul>
+<li>Pedir o benefício sem juntar documentos dos anos mais antigos.</li>
+<li>Preencher a autodeclaração com datas aproximadas ou que não conferem com os cadastros.</li>
+<li>Deixar de informar períodos de trabalho urbano, que o INSS acaba encontrando no CNIS.</li>
+<li>Jogar fora blocos e notas antigas por achar que não servem mais.</li>
+</ul>
+
+<h2>Quando buscar orientação</h2>
+<p>Vale procurar orientação jurídica quando:</p>
+<ul>
+<li>o <a href="../../previdenciario/beneficio-negado/">INSS negar o pedido</a> ou fizer exigências que a pessoa não consegue cumprir;</li>
+<li>faltarem documentos de alguns anos do período de <a href="../../previdenciario/aposentadoria-rural/">trabalho rural</a>;</li>
+<li>a pessoa tiver alternado trabalho no campo e na cidade (nesses casos, pode ser o caso da <a href="../../previdenciario/aposentadoria/">aposentadoria híbrida</a>, que soma os dois tempos).</li>
+</ul>
+
+<h2>Atenção</h2>
+<p>As regras de comprovação do trabalho rural vêm sendo ajustadas pelo INSS, e cada caso depende dos documentos disponíveis. Este artigo tem caráter informativo e não substitui a análise individual.</p>
+
+<p class="fontes">Fontes: <a href="https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm">Lei 8.213/1991</a> (arts. 11, 39, 48 e 106), <a href="https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc103.htm">Emenda Constitucional 103/2019</a> e <a href="https://www.gov.br/inss/pt-br/noticias/segurado-especial-confira-os-requisitos-para-se-ter-acesso-aos-beneficios-do-inss">INSS: requisitos do segurado especial</a>.</p>
+""",
+    },
+    {
         "rascunho": True,  # aguardando correção do José
         "slug": "mp-1376-renegociacao-dividas-rurais",
         "titulo": "MP 1.376/2026: o que muda na renegociação de dívidas rurais",
